@@ -2241,7 +2241,7 @@ a.btn-transparent{
   background-color: #f7f7f7;
 }
 
-#home-news-slider .optionset-4panel-products ul.slides li{
+#home-news-slider ul.slides li{
   position: relative;
 }
 
@@ -2256,6 +2256,15 @@ a.btn-transparent{
 .green-btn{
   color: #ffffff;
   background-color: #03943e;
+  border: none;
+}
+
+.green-btn:hover{
+  background-color: #027b34;
+}
+
+.caret-spacing{
+  margin-left: 0.25em;
 }
 
 @media all and (transform-3d), (-webkit-transform-3d) {
