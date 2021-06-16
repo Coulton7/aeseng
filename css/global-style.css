@@ -2267,6 +2267,22 @@ a.btn-transparent{
   margin-left: 0.25em;
 }
 
+.black-overlay {
+  background: rgba(0, 0, 0, 0.6);
+  opacity: 1;
+  color: #ffffff;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  border-radius: 6px 6px 0 0;
+}
+
+.overlay-link p{
+  opacity: 1;
+}
+
 @media all and (transform-3d), (-webkit-transform-3d) {
     .carousel-fade .carousel-inner > .item.next,
     .carousel-fade .carousel-inner > .item.active.right {
