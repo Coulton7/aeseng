@@ -1,5 +1,5 @@
 <?php
-function aesglobal_form_system_theme_settings_alter(&$form, $form_state) {
+function aeseng_form_system_theme_settings_alter(&$form, $form_state) {
   $form['secondary_logo'] = array(
     '#title' => t('Secondary logo'),
     '#description' => t('For a second logo or mobile logo'),
@@ -12,7 +12,7 @@ function aesglobal_form_system_theme_settings_alter(&$form, $form_state) {
   );
 }
 
-$form['#submit'][] = 'aesglobal_settings_form_submit';
+$form['#submit'][] = 'aeseng_settings_form_submit';
 
 // Get all themes.
 $themes = list_themes();
@@ -20,7 +20,7 @@ $themes = list_themes();
 $active_theme = $GLOBALS['theme_key'];
 $form_state['build_info']['files'][] = str_replace("/$active_theme.info", '', $themes[$active_theme]->filename) . '/theme-settings.php';
 
-function aesglobal_settings_form_submit(&$form, $form_state) {
+function aeseng_settings_form_submit(&$form, $form_state) {
 $image_fid = $form_state['values']['secondary_logo'];
   $image = file_load($image_fid);
   if (is_object($image)) {
@@ -31,7 +31,7 @@ $image_fid = $form_state['values']['secondary_logo'];
       // Save the update.
       file_save($image);
       // Add a reference to prevent warnings.
-      file_usage_add($image, 'aesglobal', 'theme', 1);
+      file_usage_add($image, 'aeseng', 'theme', 1);
      }
   }
 }
