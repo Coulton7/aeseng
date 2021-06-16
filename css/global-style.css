@@ -259,6 +259,12 @@ a.no-underline :hover {
   color: #bd4030;
 }
 
+.socialmedia{
+  height: 0;
+  position: relative;
+  margin-bottom: 1em;
+}
+
 .btn {
   background-color: #e7e7e9;
   border-color: #e7e7e8 #e7e7e8 #e7e7e9;
