@@ -2241,6 +2241,23 @@ a.btn-transparent{
   background-color: #f7f7f7;
 }
 
+#home-news-slider .optionset-4panel-products ul.slides li{
+  position: relative;
+}
+
+.btn-home-slider{
+  position: absolute;
+  top: 67%;
+  right: 0;
+  display: inline-flex;
+  align-items: center;
+}
+
+.green-btn{
+  color: #ffffff;
+  background-color: #03943e;
+}
+
 @media all and (transform-3d), (-webkit-transform-3d) {
     .carousel-fade .carousel-inner > .item.next,
     .carousel-fade .carousel-inner > .item.active.right {
