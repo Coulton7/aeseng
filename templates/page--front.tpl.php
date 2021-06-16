@@ -176,7 +176,7 @@ if(!empty($file_fid)) {
 	<?php endif; ?>
 
 	<?php if ($page['wavelower']): ?>
-	<div class="row wavelower row-eq-height">
+	<div class="row wavelower row-flex-col">
 		<div class="col-xs-12 fullscreen">
 			<div class="bottom-gap">
 			</div>
