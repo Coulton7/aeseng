@@ -1,4 +1,4 @@
-name = aesglobal
+name = aeseng
 description = Global sub-sub theme
 core = 7.x
 base theme = aesbs337
