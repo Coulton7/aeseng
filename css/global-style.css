@@ -2260,7 +2260,8 @@ a.btn-transparent{
 }
 
 .green-btn:hover{
-  background-color: #027b34;
+  background-color: #084420;
+  color: #ffffff;
 }
 
 .caret-spacing{
