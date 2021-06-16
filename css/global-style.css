@@ -2281,6 +2281,7 @@ a.btn-transparent{
 
 .overlay-link p{
   opacity: 1;
+  color: #ffffff;
 }
 
 @media all and (transform-3d), (-webkit-transform-3d) {
