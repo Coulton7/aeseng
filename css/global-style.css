@@ -2172,7 +2172,7 @@ filter: invert(1%) sepia(78%) saturate(3008%) hue-rotate(205deg) brightness(83%)
   animation-fill-mode: forwards;
 }
 
-.carousel-indicators li{
+.carousel-indicators li, .carousel-indicators li.active{
     text-indent:0;
     width:200px;
     height: 40px;
