@@ -2327,7 +2327,12 @@ a.btn-transparent{
 
 .btn-left{
   text-align: left;
-  white-space: normal;
+}
+
+.text-overflow-ellipsis{
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: hidden;
 }
 
 .carousel-title{
