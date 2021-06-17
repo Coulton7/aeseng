@@ -2264,6 +2264,14 @@ a.btn-transparent{
   align-items: center;
 }
 
+.btn-home-brochure-slider{
+  position: absolute;
+  top: 50%;
+  right: 0;
+  display: inline-flex;
+  align-items: center;
+}
+
 .green-btn{
   color: #ffffff;
   background-color: #03943e;
