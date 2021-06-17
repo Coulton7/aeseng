@@ -2325,6 +2325,15 @@ a.btn-transparent{
   text-align: left;
 }
 
+.carousel-title{
+  font-size: 5em;
+  line-height: 3em;
+}
+
+.green-header{
+  color: #03943e;
+}
+
 @media all and (transform-3d), (-webkit-transform-3d) {
     .carousel-fade .carousel-inner > .item.next,
     .carousel-fade .carousel-inner > .item.active.right {
