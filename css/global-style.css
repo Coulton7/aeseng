@@ -2321,6 +2321,10 @@ a.btn-transparent{
   outline: none;
 }
 
+.btn-left{
+  text-align: left;
+}
+
 @media all and (transform-3d), (-webkit-transform-3d) {
     .carousel-fade .carousel-inner > .item.next,
     .carousel-fade .carousel-inner > .item.active.right {
