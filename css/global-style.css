@@ -2327,6 +2327,7 @@ a.btn-transparent{
 
 .btn-left{
   text-align: left;
+  white-space: normal;
 }
 
 .carousel-title{
