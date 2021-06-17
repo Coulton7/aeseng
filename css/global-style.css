@@ -2308,6 +2308,10 @@ a.btn-transparent{
   color: #ffffff;
 }
 
+.no-outline{
+  outline: none;
+}
+
 @media all and (transform-3d), (-webkit-transform-3d) {
     .carousel-fade .carousel-inner > .item.next,
     .carousel-fade .carousel-inner > .item.active.right {
