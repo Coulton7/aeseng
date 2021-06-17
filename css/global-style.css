@@ -35,6 +35,12 @@ body.navbar-is-fixed-top.navbar-administration .navbar, body.navbar-is-fixed-top
   cursor: default;
 }
 
+.half-heightvh{
+  height: 50vh;
+  width: 100%;
+  overflow: hidden;
+}
+
 .uppercurve{
   z-index: 1031;
 }
