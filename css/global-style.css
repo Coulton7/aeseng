@@ -2118,8 +2118,8 @@ filter: invert(1%) sepia(78%) saturate(3008%) hue-rotate(205deg) brightness(83%)
 }
 
 .home-slider-height{
-  max-height: 73vh;
-  height: 73vh;
+  max-height: 70.5vh;
+  height: 70.5vh;
   background-color: #002d59;
   min-height: 800px
 }
