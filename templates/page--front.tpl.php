@@ -186,7 +186,7 @@ if(!empty($file_fid)) {
       <?php endif; ?>
 
       <?php if (!empty($page['preface_lower'])): ?>
-        <aside class="col-sm-12">
+        <aside class="col-sm-12 fullscreen">
           <?php print render($page['preface_lower']); ?>
         </aside>  <!-- /#sidebar-first -->
       <?php endif; ?>
