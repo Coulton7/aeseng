@@ -2362,6 +2362,10 @@ a.btn-transparent{
   width: : 100%;
 }
 
+.position-rel{
+  position: relative;
+}
+
 @media all and (transform-3d), (-webkit-transform-3d) {
     .carousel-fade .carousel-inner > .item.next,
     .carousel-fade .carousel-inner > .item.active.right {
