@@ -169,11 +169,30 @@ if(!empty($file_fid)) {
 		</div>
 	<?php endif; ?>
 
-	<?php if ($page['preface']): ?>
-	<div class="preface front__flex-margin">
-			<?php print render($page['preface']);?>
-	</div>
-	<?php endif; ?>
+  <section class="preface front__flex-margin">
+    <?php if ($page['preface']): ?>
+    <div class="<?php if (empty($page['preface_side'])) { print 'col-sm-12'; } else { print 'col-sm-9'; } ?>">
+	     <div class="preface-main">
+			      <?php print render($page['preface']);?>
+	     </div>
+    </div>
+	  <?php endif; ?>
+
+    <?php if (!empty($page['preface_side'])): ?>
+      <aside class="col-sm-3 col-md-3">
+        <?php print render($page['preface_side']); ?>
+      </aside>  <!-- /#sidebar-first -->
+    <?php endif; ?>
+
+    <?php if (!empty($page['preface_lower'])): ?>
+      <aside class="col-sm-12">
+        <?php print render($page['preface_lower']); ?>
+      </aside>  <!-- /#sidebar-first -->
+    <?php endif; ?>
+
+  </section>
+
+
 
 	<?php if ($page['wavelower']): ?>
 	<div class="row wavelower row-flex-col">
