@@ -2287,6 +2287,11 @@ a.btn-transparent{
   margin-left: 0.25em;
 }
 
+.fa-inline-icon{
+  display: inline-flex;
+  align-items: center;
+}
+
 .black-overlay {
   background: rgba(0, 0, 0, 0.6);
   opacity: 1;
