@@ -276,7 +276,7 @@ a.no-underline :hover {
 
 .btn:hover {
   background-color: #cfcfd1;
-  color: #535354 !important;
+  color: #535354;
 }
 
 .btn-social {
