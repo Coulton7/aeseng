@@ -2192,6 +2192,7 @@ filter: invert(1%) sepia(78%) saturate(3008%) hue-rotate(205deg) brightness(83%)
 
 .advance-training-btn:hover{
   background-color: #fa101a;
+  border-radius: 6px;
 }
 
 .blue-wave{
