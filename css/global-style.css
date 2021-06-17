@@ -2348,6 +2348,20 @@ a.btn-transparent{
   color: #03943e;
 }
 
+.home-brochure-flex{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.home-brochure-flex .view-header{
+  flex: 1 0 auto;
+}
+
+.home-brochure-flex .view-content{
+  width: : 100%;
+}
+
 @media all and (transform-3d), (-webkit-transform-3d) {
     .carousel-fade .carousel-inner > .item.next,
     .carousel-fade .carousel-inner > .item.active.right {
