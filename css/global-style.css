@@ -2372,6 +2372,10 @@ a.btn-transparent{
   padding-right: 1em;
 }
 
+.carousel li:last-child{
+  padding-right: 0;
+}
+
 @media all and (transform-3d), (-webkit-transform-3d) {
     .carousel-fade .carousel-inner > .item.next,
     .carousel-fade .carousel-inner > .item.active.right {
