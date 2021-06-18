@@ -2379,6 +2379,8 @@ a.btn-transparent{
   width: 30%;
   height: 88%;
   background-color: #03943e;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .btn-transparent-green-border{
