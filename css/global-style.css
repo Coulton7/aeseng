@@ -2446,6 +2446,16 @@ h2.carousel-text{
   transform: scale(1.1);
 }
 
+.animate__delay-6s{
+  animation-delay: 6s;
+  -webkit-animation-delay: 6s;
+}
+
+.animate__delay-7s{
+  animation-delay: 7s;
+  -webkit-animation-delay: 7s;
+}
+
 @media all and (transform-3d), (-webkit-transform-3d) {
     .carousel-fade .carousel-inner > .item.next,
     .carousel-fade .carousel-inner > .item.active.right {
