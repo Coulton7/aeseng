@@ -2415,6 +2415,10 @@ h2.carousel-text{
   color: #000000;
 }
 
+.fa-onehalf{
+  font-size: 1.5em;
+}
+
 @media all and (transform-3d), (-webkit-transform-3d) {
     .carousel-fade .carousel-inner > .item.next,
     .carousel-fade .carousel-inner > .item.active.right {
