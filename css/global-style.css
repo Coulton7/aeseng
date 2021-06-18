@@ -2379,6 +2379,10 @@ a.btn-transparent{
   height: 100%;
 }
 
+#myCarousel .thumbnails{
+  margin: 0;
+}
+
 @media all and (transform-3d), (-webkit-transform-3d) {
     .carousel-fade .carousel-inner > .item.next,
     .carousel-fade .carousel-inner > .item.active.right {
