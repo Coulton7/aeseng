@@ -2360,6 +2360,11 @@ a.btn-transparent{
   flex: 1 0 auto;
 }
 
+.home-brochure-flex .view-header .view-content{
+  display: flex;
+  height: 100%;
+}
+
 .home-brochure-flex .view-content{
   width: 100%;
 }
