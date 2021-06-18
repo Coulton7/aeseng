@@ -2434,6 +2434,14 @@ h2.carousel-text{
   font-size: 1.5em;
 }
 
+.scale-hover img{
+  transition: scale,.5s
+}
+
+.scale-hover img:hover{
+  transform: scale(1.1);
+}
+
 @media all and (transform-3d), (-webkit-transform-3d) {
     .carousel-fade .carousel-inner > .item.next,
     .carousel-fade .carousel-inner > .item.active.right {
