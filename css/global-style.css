@@ -2374,6 +2374,10 @@ a.btn-transparent{
   padding-right: 0.5em;
 }
 
+.front .preface .region-preface-side{
+  height: 100%;
+}
+
 @media all and (transform-3d), (-webkit-transform-3d) {
     .carousel-fade .carousel-inner > .item.next,
     .carousel-fade .carousel-inner > .item.active.right {
