@@ -2384,13 +2384,13 @@ a.btn-transparent{
 }
 
 a.btn-transparent-green-border{
-  background: transparent;
+  background: #e5e5e7;
   border: 2px solid #03943e;
   color:#535354;
 }
 
 a.btn-transparent-green-border:hover{
-  background: #d7d7d7;
+  background: #e5e5e5;
   border: 2px solid #03943e;
   color: #000000;
 }
