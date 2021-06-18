@@ -2391,6 +2391,7 @@ a.btn-transparent-green-border{
 
 a.btn-transparent-green-border:hover{
   background: #d7d7d7;
+  border: 2px solid #03943e;
   color: #000000;
 }
 
