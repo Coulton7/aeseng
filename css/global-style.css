@@ -2398,6 +2398,11 @@ a.btn-transparent{
   margin: 0;
 }
 
+h2.carousel-caption{
+  font-weight: 700;
+  color: #000000;
+}
+
 @media all and (transform-3d), (-webkit-transform-3d) {
     .carousel-fade .carousel-inner > .item.next,
     .carousel-fade .carousel-inner > .item.active.right {
