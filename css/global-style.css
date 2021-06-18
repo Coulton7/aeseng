@@ -2318,10 +2318,18 @@ a.btn-transparent{
   width: 100%;
   top: 0;
   left: 0;
+  -moz-transition: opacity, .5s;
+  -o-transition: opacity, .5s;
+  -webkit-transition: opacity, .5s;
+  transition: opacity, .5s;
 }
 
 .black-overlay:hover{
   opacity: 0;
+  -moz-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0)
 }
 
 .overlay-link p{
