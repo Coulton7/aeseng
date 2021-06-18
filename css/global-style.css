@@ -2369,6 +2369,18 @@ a.btn-transparent{
   width: 100%;
 }
 
+.greenbar:before {
+  content: " ";
+  padding: 25%;
+  display: block;
+}
+
+.greenbar{
+  width: 60%;
+  height: 88%;
+  background-color: #03943e;
+}
+
 .btn-transparent-green-border{
   background: transparent;
   border-radius: 2px solid #03943e;
