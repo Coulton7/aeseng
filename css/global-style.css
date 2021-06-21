@@ -2472,23 +2472,27 @@ h2.carousel-text{
 }
 
 .marquee {
-  margin: 0 auto;
   white-space: nowrap;
   overflow: hidden;
   position: relative;
+  left: 0;
+  width: 70%;
 }
 
 .marquee--inner {
   display: block;
   width: 200%;
-  margin: 70px 0;
   position: absolute;
-  animation: marquee 15s linear infinite;
+  animation: marquee 30s linear infinite;
+}
+
+.marquee-static-text{
+  width: 35%;
 }
 
 @keyframes marquee {
-  0% { left: 0; }
-  100% { left: -100%; }
+  0% { left: 100%; }
+  100% { left: -275%; }
 }
 
 .caption-one{
