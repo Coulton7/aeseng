@@ -2570,15 +2570,15 @@ h2.carousel-text{
   .carousel-vertical .carousel-inner>.item.next,
   .carousel-vertical .carousel-inner>.item.active.right {
     top: 0;
-    -webkit-transform: translate3d(0, 100%, 0);
-    transform: translate3d(0, 0, 0);
+    -webkit-transform: translate3d(0, 33.33%, 0);
+    transform: translate3d(0, 33.33%, 0);
   }
 
   .carousel-vertical .carousel-inner>.item.prev,
   .carousel-vertical .carousel-inner>.item.active.left {
     top: 0;
-    -webkit-transform: translate3d(0, -100%, 0);
-    transform: translate3d(0, 0, 0);
+    -webkit-transform: translate3d(0, -33.33%, 0);
+    transform: translate3d(0, -33.33%, 0);
   }
 
   .carousel-vertical .carousel-inner>.item.next.left,
