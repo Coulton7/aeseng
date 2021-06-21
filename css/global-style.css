@@ -2094,11 +2094,13 @@ filter: invert(1%) sepia(78%) saturate(3008%) hue-rotate(205deg) brightness(83%)
 }
 
 .carousel-vertical .carousel-inner>.item {
-    width: auto;
-    /* set the animation duration to 1 second */
-    transition: 1s ease-in-out;
-    transform: translate3d(0, 100%, 0);
-    top: 0;
+  -webkit-transition:-webkit-transform .6s ease-in-out;
+  -moz-transition:-webkit-transform .6s ease-in-out;
+  -o-transition:-o-transform .6s ease-in-out;
+  transition:transform .6s ease-in-out;
+  -webkit-backface-visibility:hidden;
+  -moz-backface-visibility:hidden;
+  backface-visibility:hidden;
 }
 
 .carousel-vertical .carousel-inner > .next,
