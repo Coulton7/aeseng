@@ -2093,6 +2093,14 @@ filter: invert(1%) sepia(78%) saturate(3008%) hue-rotate(205deg) brightness(83%)
   z-index: 2;
 }
 
+.carousel-vertical .carousel-inner>.item {
+    width: auto;
+    /* set the animation duration to 1 second */
+    transition: 1s ease-in-out;
+    transform: translate3d(0, 100%, 0);
+    top: 0;
+}
+
 .carousel-caption{
   left: 0;
   right: 0;
