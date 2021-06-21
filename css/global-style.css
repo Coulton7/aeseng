@@ -2497,6 +2497,36 @@ h2.carousel-text{
   }
 }
 
+.caption-one{
+  animation: fadeText 3s infinite;
+}
+
+.caption-two{
+  animation: fadeText 3s infinite;
+  animation-delay: 4s;
+}
+
+.caption-three{
+  animation: fadeText 3s infinite;
+  animation-delay: 7s;
+}
+
+.cpation-four{
+  animation: fadeText 3s infinite;
+  animation-delay: 10s;
+}
+
+@keyframes fadeText{
+  0%{
+    opacity: 0;
+  }
+  50%{
+    opacity: 1;
+  }
+  100%{
+    opacity: 0;
+  }
+}
 
 
 @media all and (transform-3d), (-webkit-transform-3d) {
