@@ -2475,7 +2475,7 @@ h2.carousel-text{
   margin: 0 auto;
   white-space: nowrap;
   overflow: hidden;
-  position: relative;
+  position: absolute;
 }
 
 .marquee span {
