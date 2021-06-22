@@ -2068,6 +2068,12 @@ filter: invert(1%) sepia(78%) saturate(3008%) hue-rotate(205deg) brightness(83%)
   padding: 42% 5%!important;
 }
 
+.carousel-sidebar{
+  bottom: 0;
+  position: absolute;
+  width: 100%;
+}
+
 .carousel-fade .carousel-inner .item {
   opacity: 0;
   transition-property: opacity;
