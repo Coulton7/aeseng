@@ -2496,6 +2496,10 @@ h2.carousel-text{
   font-size: 1.5em;
 }
 
+.scale-hover{
+  overflow: hidden;
+}
+
 .scale-hover img{
   transition: scale,.5s
 }
