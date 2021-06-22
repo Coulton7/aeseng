@@ -2183,7 +2183,7 @@ filter: invert(1%) sepia(78%) saturate(3008%) hue-rotate(205deg) brightness(83%)
   min-height: 35em
 }
 
-#sus-button-slider.carousel {
+.carousel-sidebar {
   bottom: 0;
   position: absolute;
   width: 100%;
