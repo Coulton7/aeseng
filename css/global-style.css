@@ -2103,6 +2103,10 @@ filter: invert(1%) sepia(78%) saturate(3008%) hue-rotate(205deg) brightness(83%)
   backface-visibility:hidden;
 }
 
+.carousel-vertical .item {
+    margin-right: 0.5em;
+}
+
 .carousel-vertical .carousel-inner > .next,
 .carousel-vertical .carousel-inner > .prev {
     height: 100%;
