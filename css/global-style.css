@@ -2544,7 +2544,10 @@ h2.carousel-text{
 }
 
 .green-logo{
-  z-index: 1033
+  z-index: 1033;
+  width: 10.7em;
+  margin: 0 auto;
+  right: 0.1em;
 }
 
 @keyframes fadeLogo {
