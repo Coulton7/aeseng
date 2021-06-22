@@ -2298,11 +2298,11 @@ filter: invert(1%) sepia(78%) saturate(3008%) hue-rotate(205deg) brightness(83%)
 }
 
 a.useful-links-text{
-  color: #338FBC;
+  color: #002a5b;
 }
 
 a.useful-links-text:hover{
-  color: #ffffff;
+  color: #2964a8;
 }
 
 .btn-transparent{
