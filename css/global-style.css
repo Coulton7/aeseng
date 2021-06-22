@@ -2538,13 +2538,14 @@ h2.carousel-text{
   animation-delay: 10s;
 }
 
-.green-wavelogo{
+.green-logo{
   animation: fadeLogo 2s;
   -webkit-animation: fadeLogo 2s;
   -moz-animation: fadeLogo 2s;
   -ms-animation: fadeLogo 2s;
   -o-animation: fadeLogo 2s;
   animation-delay: 20s;
+  z-index: 1033
 }
 
 @keyframes fadeLogo {
