@@ -2544,13 +2544,6 @@ h2.carousel-text{
 }
 
 .green-logo{
-  animation: fadeLogo 2s;
-  -webkit-animation: fadeLogo 2s;
-  -moz-animation: fadeLogo 2s;
-  -ms-animation: fadeLogo 2s;
-  -o-animation: fadeLogo 2s;
-  animation-delay: 20s;
-  animation-iteration-count: 1;
   z-index: 1033
 }
 

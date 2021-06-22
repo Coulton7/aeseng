@@ -99,7 +99,7 @@ if(!empty($file_fid)) {
 			<div class="col-sm-2 col-xs-1 fullscreen">
 				<a title="<?php print t('Home'); ?>" class="logo-link" href="<?php print $front_page; ?>">
 					<div class="wavelogo">
-            <img class="green-logo wavelogo" src="/sites/all/themes/aesbs337/images/logos/AES-Green.svg" alt="green-logo"/>
+            <img class="green-logo animate__fadeOutUp animate__delay-20s wavelogo" src="/sites/all/themes/aesbs337/images/logos/AES-Green.svg" alt="green-logo"/>
 						<img class="wavelogo" src="<?php print $logo?>" alt="logo">
 					</div>
 				</a>
