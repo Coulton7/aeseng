@@ -227,7 +227,7 @@ if(!empty($file_fid)) {
 	<div class="row">
 
 		<div class="tablet-fix">
-			<section class="
+			<section class="blue-background
 
 			<?php if (empty($page['sidebar_first']) && empty($page['sidebar_second'])) { print 'col-sm-12'; }
 				else if (empty($page['sidebar_first']) || empty($page['sidebar_second'])) { print 'col-sm-8 col-md-9 col-md-push-3 col-sm-push-4'; }
