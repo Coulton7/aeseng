@@ -2178,7 +2178,7 @@ filter: invert(1%) sepia(78%) saturate(3008%) hue-rotate(205deg) brightness(83%)
 }
 
 .home-slider-height{
-  height: 35em;
+  height: 100%;
   background-color: #e5e5e7;
   min-height: 35em
 }
@@ -2191,6 +2191,7 @@ filter: invert(1%) sepia(78%) saturate(3008%) hue-rotate(205deg) brightness(83%)
   background-repeat: no-repeat;
   padding-top: 5em;
   background-position: bottom center;
+  display: flex;
 }
 
 #carousel-fade .carousel-inner .item:nth-child(2){
