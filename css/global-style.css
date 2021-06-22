@@ -2545,15 +2545,18 @@ h2.carousel-text{
   -ms-animation: fadeLogo 2s;
   -o-animation: fadeLogo 2s;
   animation-delay: 20s;
+  animation-iteration-count: 1;
   z-index: 1033
 }
 
 @keyframes fadeLogo {
   0% {
+    display: block;
     opacity: 1
   }
 
   100% {
+    display: none;
     opacity: 0
   }
 }
