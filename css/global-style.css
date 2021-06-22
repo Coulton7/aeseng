@@ -2445,6 +2445,10 @@ a.btn-transparent-green-border:hover{
   height: 100%;
 }
 
+.front .preface .region-preface{
+  height: 100%;
+}
+
 #myCarousel .thumbnails{
   margin: 0;
 }
