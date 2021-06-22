@@ -2628,6 +2628,9 @@ h2.carousel-text{
   }
 }
 
+.front .carousel .vertical .btn-block+.btn-block{
+  margin-top: 0.5em;
+}
 
 @media all and (transform-3d), (-webkit-transform-3d) {
 
