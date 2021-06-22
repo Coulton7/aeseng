@@ -2183,6 +2183,12 @@ filter: invert(1%) sepia(78%) saturate(3008%) hue-rotate(205deg) brightness(83%)
   min-height: 35em
 }
 
+#sus-button-slider.carousel {
+  bottom: 0;
+  position: absolute;
+  width: 100%;
+}
+
 #carousel-fade .carousel-inner .item:nth-child(1){
   background-color: #e5e5e7;
   background-image: url(https://static.aesseal.com/graphics/waterback.jpg);
