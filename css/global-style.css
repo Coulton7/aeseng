@@ -2491,6 +2491,11 @@ h2.carousel-text{
   -webkit-animation-delay: 10s;
 }
 
+.animate__delay-20s{
+  animation-delay: 20s;
+  -webkit-animation-delay: 20s;
+}
+
 .marquee {
   white-space: nowrap;
   overflow: hidden;
