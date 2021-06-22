@@ -493,7 +493,7 @@ a.btn:hover {
 }
 
 .btn-default {
-  border-bottom: none;
+  border: 1px solid transparent;
   color: #535354;
   overflow: hidden;
   white-space: nowrap;
