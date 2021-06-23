@@ -171,7 +171,7 @@ if(!empty($file_fid)) {
   <section class="preface front__flex-margin">
     <div class="row row-flex-col">
       <?php if ($page['preface']): ?>
-      <div class="<?php if (empty($page['preface_side'])) { print 'col-sm-12 fullscreen'; } else { print 'col-md-9 col-sm-12 fullscreen'; } ?>">
+      <div class="<?php if (empty($page['preface_side'])) { print 'col-sm-12 fullscreen'; } else { print 'col-lg-9 col-md-4 col-sm-12 fullscreen'; } ?>">
   	     <div class="preface-main full-height">
   			      <?php print render($page['preface']);?>
   	     </div>
@@ -179,7 +179,7 @@ if(!empty($file_fid)) {
   	  <?php endif; ?>
 
       <?php if (!empty($page['preface_side'])): ?>
-        <aside class="col-sm-12 col-md-3 fullscreen">
+        <aside class="col-lg-3 ccol-md-4 col-sm-12 fullscreen">
           <?php print render($page['preface_side']); ?>
         </aside>  <!-- /#sidebar-first -->
       <?php endif; ?>
