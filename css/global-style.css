@@ -2511,6 +2511,14 @@ h2.carousel-text{
   color: #002a5b;
 }
 
+.caousel-caption-left{
+  text-align: right;
+}
+
+.carousel-caption-right{
+  text-align: left;
+}
+
 .fa-onehalf{
   font-size: 1.5em;
 }
@@ -3109,6 +3117,14 @@ h2.carousel-text{
 
   .banner-title{
     top: 0;
+  }
+
+  .caousel-caption-left{
+    text-align: center;
+  }
+
+  .carousel-caption-right{
+    text-align: center;
   }
 }
 
