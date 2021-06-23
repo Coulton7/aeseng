@@ -2611,6 +2611,10 @@ h2.carousel-text{
   right: 0.1em;
 }
 
+.front .carousel .vertical .btn-block+.btn-block{
+  margin-top: 0.5em;
+}
+
 @keyframes fadeLogo {
   0% {
     display: block;
