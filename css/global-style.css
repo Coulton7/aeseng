@@ -3141,6 +3141,13 @@ h2.carousel-text{
       width: 45%;
       height: 40px;
   }
+
+  #myCarousel li{
+    margin-right: 0;
+    padding-top:0.5em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -3460,6 +3467,13 @@ h2.carousel-text{
   .carousel-indicators li, .carousel-indicators li.active{
       width:20%;
       height: 40px;
+  }
+
+  #myCarousel li{
+    margin-right: 0;
+    padding-top: 0;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
   }
 }
 
