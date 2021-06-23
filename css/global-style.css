@@ -2187,11 +2187,6 @@ filter: invert(1%) sepia(78%) saturate(3008%) hue-rotate(205deg) brightness(83%)
   margin-right: 0.5em;
 }
 
-#carousel-fade .carousel-indicators li{
-    width: 45%;
-    height: 40px;
-}
-
 .home-slider-height{
   height: 100%;
   background-color: #e5e5e7;
@@ -3141,6 +3136,11 @@ h2.carousel-text{
     margin-bottom: 0.5em;
     margin-right: 0.5em;
   }
+
+  .carousel-indicators li, .carousel-indicators li.active{
+      width: 45%;
+      height: 40px;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -3455,6 +3455,11 @@ h2.carousel-text{
 
   .carousel-caption-right{
     text-align: left;
+  }
+
+  .carousel-indicators li, .carousel-indicators li.active{
+      width:20%;
+      height: 40px;
   }
 }
 
