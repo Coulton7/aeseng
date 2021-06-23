@@ -3494,7 +3494,7 @@ h2.carousel-text{
     margin-left: 0.5em;
     margin-right: 0.5em;
     position: relative;
-    background-color: #ffffff;
+    background-color: transparent;
   }
 }
 
