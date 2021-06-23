@@ -179,7 +179,7 @@ if(!empty($file_fid)) {
   	  <?php endif; ?>
 
       <?php if (!empty($page['preface_side'])): ?>
-        <aside class="col-lg-3 ccol-md-4 col-sm-12 fullscreen">
+        <aside class="col-lg-3 col-md-4 col-sm-12 fullscreen">
           <?php print render($page['preface_side']); ?>
         </aside>  <!-- /#sidebar-first -->
       <?php endif; ?>
