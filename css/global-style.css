@@ -3467,7 +3467,7 @@ h2.carousel-text{
 
   .home-carousel{
     margin-bottom: 0.5em;
-    margin-right: 0.5em;
+    margin-right: 0em;
   }
 
   .carousel-caption-left{
@@ -3643,6 +3643,11 @@ h2.carousel-text{
 
   .news-video-slider-padding{
     padding: 49% 5%!important;
+  }
+
+  .home-carousel{
+    margin-bottom: 0.5em;
+    margin-right: 0.5em;
   }
 
   .brochure-carousel{
