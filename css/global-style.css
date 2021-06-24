@@ -3141,7 +3141,7 @@ h2.carousel-text{
 
   .home-carousel{
     margin-bottom: 0.5em;
-    margin-right: 0.5em;
+    margin-right: 0;
   }
 
   .carousel-indicators li, .carousel-indicators li.active{
