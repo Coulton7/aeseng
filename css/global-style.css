@@ -3211,6 +3211,26 @@ h2.carousel-text{
     position: relative;
     background-color: transparent;
   }
+
+  .carousel-inner.horizontal > .item.next,
+  .carousel-inner.horizontal > .item.active.right {
+    -webkit-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0);
+    right: 0;
+  }
+  .carousel-inner.horizontal > .item.prev,
+  .carousel-inner.horizontal > .item.active.left {
+    -webkit-transform: translate3d(33%, 0, 0);
+    transform: translate3d(100%, 0, 0);
+    left: 0;
+  }
+  .carousel-inner.horizontal > .item.next.left,
+  .carousel-inner.horizontal > .item.prev.right,
+  .carousel-inner.horizontal > .item.active {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    right: 0;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -3545,6 +3565,26 @@ h2.carousel-text{
     position: relative;
     background-color: transparent;
   }
+
+  .carousel-inner.horizontal > .item.next,
+  .carousel-inner.horizontal > .item.active.right {
+    -webkit-transform: translate3d(-50%, 0, 0);
+    transform: translate3d(-50%, 0, 0);
+    right: 0;
+  }
+  .carousel-inner.horizontal > .item.prev,
+  .carousel-inner.horizontal > .item.active.left {
+    -webkit-transform: translate3d(50%, 0, 0);
+    transform: translate3d(50%, 0, 0);
+    left: 0;
+  }
+  .carousel-inner.horizontal > .item.next.left,
+  .carousel-inner.horizontal > .item.prev.right,
+  .carousel-inner.horizontal > .item.active {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    right: 0;
+  }
 }
 
 @media screen and (min-width: 992px) {
@@ -3701,6 +3741,26 @@ h2.carousel-text{
 
   .brochure-carousel{
     background-color: #e5e5e7;
+  }
+
+  .carousel-inner.horizontal > .item.next,
+  .carousel-inner.horizontal > .item.active.right {
+    -webkit-transform: translate3d(-33%, 0, 0);
+    transform: translate3d(-33%, 0, 0);
+    right: 0;
+  }
+  .carousel-inner.horizontal > .item.prev,
+  .carousel-inner.horizontal > .item.active.left {
+    -webkit-transform: translate3d(33%, 0, 0);
+    transform: translate3d(33%, 0, 0);
+    left: 0;
+  }
+  .carousel-inner.horizontal > .item.next.left,
+  .carousel-inner.horizontal > .item.prev.right,
+  .carousel-inner.horizontal > .item.active {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    right: 0;
   }
 }
 
