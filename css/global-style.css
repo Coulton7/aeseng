@@ -2635,6 +2635,10 @@ h2.carousel-text{
   background-color: #e5e5e7;
 }
 
+.blue-background-no-padding{
+  background-color: #002a5b;
+}
+
 @keyframes fadeLogo {
   0% {
     display: block;
