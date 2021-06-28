@@ -2631,9 +2631,13 @@ h2.carousel-text{
 .brochure-carousel{
   margin-left: 0.5em;
   margin-right: 0.5em;
-  margin-bottom: -1em;
+  margin-bottom: -0.5em;
   position: relative;
   background-color: #e5e5e7;
+}
+
+#sus-button-slider .carousel-inner .item.active {
+    margin-bottom: 1em;
 }
 
 .slide-curve-lower{
