@@ -2642,9 +2642,10 @@ h2.carousel-text{
 .slide-curve-down{
   width: 8em;
   height: 8em;
+  right: 3em;
   position: relative;
   z-index: 10;
-  filter: invert(92%) sepia(4%) saturate(64%) hue-rotate(202deg) brightness(97%) contrast(99%);
+  filter: invert(9%) sepia(4%) saturate(64%) hue-rotate(202deg) brightness(97%) contrast(99%);
 }
 
 @keyframes fadeLogo {
