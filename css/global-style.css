@@ -2183,6 +2183,12 @@ filter: invert(1%) sepia(78%) saturate(3008%) hue-rotate(205deg) brightness(83%)
   text-align: left;
 }
 
+.carousel-indicators li{
+  height: auto;
+  width: auto;
+  padding: 0.95em 1.1em;
+}
+
 .home-carousel{
   margin-bottom: 0.5em;
   margin-right: 0.5em;
