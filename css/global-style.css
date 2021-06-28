@@ -2194,7 +2194,7 @@ filter: invert(1%) sepia(78%) saturate(3008%) hue-rotate(205deg) brightness(83%)
 }
 
 .home-carousel{
-  margin-bottom: 0.5em;
+  margin-bottom: 1em;
   margin-right: 0.5em;
 }
 
@@ -3231,7 +3231,7 @@ h2.carousel-text{
   }
 
   .home-carousel{
-    margin-bottom: 0.5em;
+    margin-bottom: 1em;
     margin-right: 0;
   }
 
@@ -3583,7 +3583,7 @@ h2.carousel-text{
   }
 
   .home-carousel{
-    margin-bottom: 0.5em;
+    margin-bottom: 1em;
     margin-right: 0em;
   }
 
