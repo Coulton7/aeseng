@@ -2635,8 +2635,11 @@ h2.carousel-text{
   background-color: #e5e5e7;
 }
 
-.blue-background-no-padding{
-  background-color: #002a5b;
+.slide-curve-lower{
+  width: 8em;
+  height: 6.185em;
+  position: relative;
+  z-index: 10;
 }
 
 @keyframes fadeLogo {
