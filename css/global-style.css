@@ -2633,7 +2633,6 @@ h2.carousel-text{
   margin-right: 0.5em;
   margin-bottom: -0.5em;
   position: relative;
-  background-color: #e5e5e7;
 }
 
 #sus-button-slider .carousel-inner .item.active {
@@ -3750,10 +3749,6 @@ h2.carousel-text{
   .home-carousel{
     margin-bottom: 0.5em;
     margin-right: 0.5em;
-  }
-
-  .brochure-carousel{
-    background-color: #e5e5e7;
   }
 
   .carousel-inner.horizontal > .item.next,
