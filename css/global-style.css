@@ -2180,6 +2180,7 @@ filter: invert(1%) sepia(78%) saturate(3008%) hue-rotate(205deg) brightness(83%)
   left: 0;
   bottom: 0;
   margin-left: 0;
+  text-align: left;
 }
 
 .home-carousel{
