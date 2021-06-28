@@ -2642,7 +2642,7 @@ h2.carousel-text{
 
 .slide-curve-lower{
   width: 8em;
-  height: 6.185em;
+  height: 8em;
   position: relative;
   z-index: 10;
   filter: invert(92%) sepia(4%) saturate(64%) hue-rotate(202deg) brightness(97%) contrast(99%);
