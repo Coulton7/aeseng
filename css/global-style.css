@@ -2653,6 +2653,17 @@ h2.carousel-text{
   top: -8em;
 }
 
+.shadow-box{
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 0 40px 10px 0;
+  transform: skewX(-10deg);
+}
+
+.shadow-box-content{
+  transform: skewX(10deg);
+}
+
 @keyframes fadeLogo {
   0% {
     display: block;
