@@ -2647,11 +2647,10 @@ h2.carousel-text{
   filter: invert(9%) sepia(4%) saturate(64%) hue-rotate(202deg) brightness(97%) contrast(99%);
 }
 
-.net-zero-icon{
-  height: 8em;
-  width: 10em;
+.icon-container{
+  height: 0;
   position: relative;
-  right: 4em;
+  top: -8em;
 }
 
 @keyframes fadeLogo {
