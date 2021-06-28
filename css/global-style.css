@@ -2207,7 +2207,6 @@ filter: invert(1%) sepia(78%) saturate(3008%) hue-rotate(205deg) brightness(83%)
   background-repeat: no-repeat;
   padding-top: 5em;
   background-position: bottom center;
-  display: flex;
 }
 
 #carousel-fade .carousel-inner .item:nth-child(2){
@@ -2642,7 +2641,7 @@ h2.carousel-text{
 .slide-curve-down{
   width: 8em;
   height: 8em;
-  right: 3em;
+  right: 8em;
   position: relative;
   z-index: 10;
   filter: invert(9%) sepia(4%) saturate(64%) hue-rotate(202deg) brightness(97%) contrast(99%);
@@ -2650,7 +2649,7 @@ h2.carousel-text{
 
 .net-zero-icon{
   height: 8em;
-  width: 8em;
+  width: 10em;
   position: relative;
   right: 4em;
 }
