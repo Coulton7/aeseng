@@ -2631,6 +2631,7 @@ h2.carousel-text{
 .brochure-carousel{
   margin-left: 0.5em;
   margin-right: 0.5em;
+  margin-bottom: -1em;
   position: relative;
   background-color: #e5e5e7;
 }
