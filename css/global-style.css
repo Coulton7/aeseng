@@ -2188,13 +2188,14 @@ filter: invert(1%) sepia(78%) saturate(3008%) hue-rotate(205deg) brightness(83%)
   width: auto;
   padding: 0.6em 1.1em;
   border-radius: 0;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.8);
   border: none;
-  color: #ffffff;
+  color: #888c8f;
 }
 
 .indicator-container{
-  padding-left: 16em;
+  bottom: -0.65em;
+  position: relative;
 }
 
 .home-carousel{
@@ -2270,10 +2271,9 @@ filter: invert(1%) sepia(78%) saturate(3008%) hue-rotate(205deg) brightness(83%)
 }
 
 .carousel-indicators li.active{
-  color: #03943e;
-  background-color: #ffffff;
-  border-bottom: 0.5em solid #03943e;
-  padding-bottom: 0.1em;
+  color: #ffffff;
+  background-color: rgba(0,0,0,0.5);
+  padding-bottom: 0.6em;
 }
 
 .flex-carousel-caption{
@@ -3285,9 +3285,6 @@ h2.carousel-text{
     right: 0;
   }
 
-  .indicator-container{
-    padding-left: 0;
-  }
 }
 
 @media screen and (min-width: 768px) {
@@ -3645,9 +3642,6 @@ h2.carousel-text{
     right: 0;
   }
 
-  .indicator-container{
-    padding-left: 11em;
-  }
 }
 
 @media screen and (min-width: 992px) {
@@ -3826,9 +3820,6 @@ h2.carousel-text{
     right: 0;
   }
 
-  .indicator-container{
-    padding-left: 12em;
-  }
 }
 
 @media screen and (min-width: 1200px) {
@@ -3921,9 +3912,6 @@ h2.carousel-text{
     padding: 42% 5%!important;
   }
 
-  .indicator-container{
-    padding-left: 16em;
-  }
 }
 
 @media screen and (min-width: 1500px) {
