@@ -2194,7 +2194,7 @@ filter: invert(1%) sepia(78%) saturate(3008%) hue-rotate(205deg) brightness(83%)
 }
 
 .indicator-container{
-  bottom: -0.65em;
+  bottom: -2.65em;
   position: relative;
 }
 
@@ -2680,6 +2680,7 @@ h2.carousel-text{
   transform: skewX(-30deg);
   right: 30%;
   position: relative;
+  bottom: -2em
 }
 
 .shadow-box-content{
