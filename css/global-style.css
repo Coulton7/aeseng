@@ -2186,7 +2186,11 @@ filter: invert(1%) sepia(78%) saturate(3008%) hue-rotate(205deg) brightness(83%)
 .carousel-indicators li{
   height: auto;
   width: auto;
-  padding: 0.95em 1.1em;
+  padding: 0.6em 1.1em;
+  border-radius: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  border: none;
+  color: #ffffff;
 }
 
 .indicator-container{
@@ -2268,6 +2272,9 @@ filter: invert(1%) sepia(78%) saturate(3008%) hue-rotate(205deg) brightness(83%)
 
 .carousel-indicators li.active{
   color: #03943e;
+  background-color: #ffffff;
+  border-bottom: 0.5em solid #03943e;
+  padding-bottom: 0.1em;
 }
 
 .flex-carousel-caption{
