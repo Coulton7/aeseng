@@ -2260,7 +2260,7 @@ filter: invert(1%) sepia(78%) saturate(3008%) hue-rotate(205deg) brightness(83%)
 
 .carousel-indicators li, .carousel-indicators li.active{
     text-indent:0;
-    width:20%;
+    width:auto;
     height: auto;
     border:none;
     background-color: transparent;
@@ -3239,7 +3239,7 @@ h2.carousel-text{
   }
 
   .carousel-indicators li, .carousel-indicators li.active{
-      width: 45%;
+      width: auto;
       height: auto;
   }
 
@@ -3599,7 +3599,7 @@ h2.carousel-text{
   }
 
   .carousel-indicators li, .carousel-indicators li.active{
-      width:20%;
+      width: auto;
       height: auto;
   }
 
