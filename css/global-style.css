@@ -2650,18 +2650,17 @@ h2.carousel-text{
 }
 
 .slide-curve-down{
-  width: 8em;
-  height: 8em;
-  right: 8em;
-  position: relative;
+  width: 99%;
+  height: 101%;
+  right: 73%;
+  position: absolute;
   z-index: 10;
   filter: invert(9%) sepia(4%) saturate(64%) hue-rotate(202deg) brightness(97%) contrast(99%);
 }
 
 .icon-container{
-  height: 0;
+  height: 100%;
   position: relative;
-  top: -8em;
 }
 
 .shadow-box{
