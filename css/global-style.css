@@ -2254,6 +2254,10 @@ filter: invert(1%) sepia(78%) saturate(3008%) hue-rotate(205deg) brightness(83%)
   background-repeat: no-repeat;
 }
 
+#sus-cover-slider .carousel-inner {
+  overflow-x: visible;
+}
+
 .carousel-indicators li, .carousel-indicators li.active{
     text-indent:0;
     width:20%;
