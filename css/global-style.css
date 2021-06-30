@@ -2267,7 +2267,6 @@ filter: invert(1%) sepia(78%) saturate(3008%) hue-rotate(205deg) brightness(83%)
     width:auto;
     height: auto;
     border:none;
-    background-color: transparent;
 }
 
 .carousel-indicators li.active{
