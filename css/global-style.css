@@ -2183,6 +2183,7 @@ filter: invert(1%) sepia(78%) saturate(3008%) hue-rotate(205deg) brightness(83%)
   bottom: 0;
   margin-left: 0;
   text-align: left;
+  margin-bottom: 0;
 }
 
 .carousel-indicators li{
@@ -2196,7 +2197,7 @@ filter: invert(1%) sepia(78%) saturate(3008%) hue-rotate(205deg) brightness(83%)
 }
 
 .indicator-container{
-  bottom: 0.35em;
+  bottom: 0.9em;
   position: relative;
 }
 
