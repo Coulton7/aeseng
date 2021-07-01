@@ -2678,9 +2678,9 @@ h2.carousel-text{
   background-color: rgba(0, 0, 0, 0.5);
   border-radius: 0 40px 10px 0;
   transform: skewX(-30deg);
-  right: 30%;
+  right: 12%;
   position: relative;
-  bottom: -2em
+  bottom: 1em
 }
 
 .shadow-box-content{
@@ -3286,6 +3286,10 @@ h2.carousel-text{
     right: 0;
   }
 
+  .shadow-box{
+    right: 7%;
+    width: 105%;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -3643,6 +3647,11 @@ h2.carousel-text{
     right: 0;
   }
 
+  .shadow-box{
+    right: 17%;
+    width: 113%;
+  }
+
 }
 
 @media screen and (min-width: 992px) {
@@ -3821,6 +3830,11 @@ h2.carousel-text{
     right: 0;
   }
 
+  .shadow-box{
+    right: 15%;
+    width: 113%;
+  }
+
 }
 
 @media screen and (min-width: 1200px) {
@@ -3913,6 +3927,11 @@ h2.carousel-text{
     padding: 42% 5%!important;
   }
 
+  .shadow-box{
+    right: 12%;
+    width: 110%;
+  }
+
 }
 
 @media screen and (min-width: 1500px) {
@@ -3960,6 +3979,11 @@ h2.carousel-text{
 
   .news-video-slider-padding{
     padding: 42% 5%!important;
+  }
+
+  .shadow-box{
+    right: 12%;
+    width: 108%;
   }
 }
 
