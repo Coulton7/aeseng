@@ -2158,9 +2158,11 @@ filter: invert(1%) sepia(78%) saturate(3008%) hue-rotate(205deg) brightness(83%)
   left: 0;
   right: 0;
   bottom: 0;
-  position: static;
+  position: relative;
   text-align: left;
   text-shadow: none;
+  display: inline-block;
+
 }
 
 .carousel-control.right,.carousel-control.left{
