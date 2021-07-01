@@ -2196,7 +2196,7 @@ filter: invert(1%) sepia(78%) saturate(3008%) hue-rotate(205deg) brightness(83%)
 }
 
 .indicator-container{
-  bottom: -2.65em;
+  bottom: 0.35em;
   position: relative;
 }
 
