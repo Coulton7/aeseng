@@ -2214,8 +2214,8 @@ filter: invert(1%) sepia(78%) saturate(3008%) hue-rotate(205deg) brightness(83%)
 
 #sus-cover-slider{
   padding-top: 2.5em;
-  margin-left: 0.5em;
-  margin-right: 0.5em;
+  margin-left: 0;
+  margin-right: 0;
   background-color: #e5e5e7;
 }
 
