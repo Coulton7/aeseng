@@ -2686,6 +2686,10 @@ h2.carousel-text{
   bottom: 1em
 }
 
+.flex-text-overflow-container{
+  min-width: 0;
+}
+
 .shadow-box-content{
   transform: skewX(30deg);
 }
