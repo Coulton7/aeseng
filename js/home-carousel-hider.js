@@ -8,14 +8,14 @@
       if ($('.sus-news-carousel').hasClass('display-none')) {
         $('.sus-news-carousel').removeClass('display-none');
       }
-      if (!$('.tech-news-carousel, .cust-news-carousel, .why-news-carousel').hasClass('display-none')) {
+      if (!$('.why-news-carousel').hasClass('display-none')) {
         $('.why-news-carousel').addClass('display-none');
       }
     } else if (slide === 2) {
       if ($('.why-news-carousel').hasClass('display-none')) {
         $('.why-news-carousel').removeClass('display-none');
       }
-      if (!$('.sus-news-carousel, .tech-news-carousel, .cust-news-carousel').hasClass('display-none')) {
+      if (!$('.sus-news-carousel').hasClass('display-none')) {
         $('.sus-news-carousel').addClass('display-none');
       }
     }
