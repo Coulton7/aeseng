@@ -5,18 +5,18 @@
     var total = carouselData.$items.length;
     var slide = (currentIndex + 1);
     if (slide === 1) {
-      if ($('.sus-news-carousel').hasClass('display-none')) {
-        $('.sus-news-carousel').removeClass('display-none');
+      if ($('.sus-media-carousel').hasClass('display-none')) {
+        $('.sus-media-carousel').removeClass('display-none');
       }
-      if (!$('.why-news-carousel').hasClass('display-none')) {
-        $('.why-news-carousel').addClass('display-none');
+      if (!$('.why-media-carousel').hasClass('display-none')) {
+        $('.why-media-carousel').addClass('display-none');
       }
     } else if (slide === 2) {
-      if ($('.why-news-carousel').hasClass('display-none')) {
-        $('.why-news-carousel').removeClass('display-none');
+      if ($('.why-media-carousel').hasClass('display-none')) {
+        $('.why-media-carousel').removeClass('display-none');
       }
-      if (!$('.sus-news-carousel').hasClass('display-none')) {
-        $('.sus-news-carousel').addClass('display-none');
+      if (!$('.sus-media-carousel').hasClass('display-none')) {
+        $('.sus-media-carousel').addClass('display-none');
       }
     }
   });
