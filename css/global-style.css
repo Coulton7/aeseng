@@ -2207,8 +2207,8 @@ filter: invert(1%) sepia(78%) saturate(3008%) hue-rotate(205deg) brightness(83%)
 }
 
 .indicator-container{
-  bottom: 0.9em;
-  position: relative;
+  position: absolute;
+  padding-top: 29.65em
 }
 
 .home-carousel{
@@ -3307,6 +3307,11 @@ h2.carousel-text{
     right: 7%;
     width: 105%;
   }
+
+  .indicator-container{
+    position: absolute;
+    padding-top: 26.65em
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -3669,6 +3674,11 @@ h2.carousel-text{
     width: 113%;
   }
 
+  .indicator-container{
+    position: absolute;
+    padding-top: 29.65em
+  }
+
 }
 
 @media screen and (min-width: 992px) {
@@ -3852,6 +3862,11 @@ h2.carousel-text{
     width: 113%;
   }
 
+  .indicator-container{
+    position: absolute;
+    padding-top: 26.65em
+  }
+
 }
 
 @media screen and (min-width: 1200px) {
@@ -3949,6 +3964,11 @@ h2.carousel-text{
     width: 110%;
   }
 
+  .indicator-container{
+    position: absolute;
+    padding-top: 29.65em
+  }
+
 }
 
 @media screen and (min-width: 1500px) {
@@ -4002,6 +4022,11 @@ h2.carousel-text{
     right: 12%;
     width: 108%;
   }
+
+  .indicator-container{
+    position: absolute;
+    padding-top: 29.65em
+  }
 }
 
 @media screen and (min-width: 2000px) {
@@ -4015,5 +4040,10 @@ h2.carousel-text{
 
   .banner-news-padding {
     padding-bottom: 24em;
+  }
+
+  .indicator-container{
+    position: absolute;
+    padding-top: 30.25em
   }
 }
