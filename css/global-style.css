@@ -2668,7 +2668,7 @@ h2.carousel-text{
   position: relative;
 }
 
-#sus-button-slider .carousel-inner .item.active {
+.button-slider .carousel-inner .item.active {
     margin-bottom: 1em;
 }
 
