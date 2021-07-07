@@ -11,6 +11,7 @@
         }
         if (!$('.why-media-carousel').hasClass('display-none')) {
           $('.why-media-carousel').addClass('display-none');
+          $('.brochure-carousel').css('margin: 0');
         }
       } else if (slide === 2) {
         if ($('.why-media-carousel').hasClass('display-none')) {
@@ -18,6 +19,7 @@
         }
         if (!$('.sus-media-carousel').hasClass('display-none')) {
           $('.sus-media-carousel').addClass('display-none');
+          $('.brochure-carousel').css('margin: 0');
         }
       }
     });
