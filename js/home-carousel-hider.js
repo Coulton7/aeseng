@@ -9,15 +9,55 @@
         if ($('.sus-media-carousel').hasClass('display-none')) {
           $('.sus-media-carousel').removeClass('display-none');
         }
+        if (!$('.tech-media-carousel').hasClass('display-none')) {
+          $('.tech-media-carousel').addClass('display-none');
+        }
+        if (!$('.cust-media-carousel').hasClass('display-none')) {
+          $('.cust-media-carousel').addClass('display-none');
+        }
         if (!$('.why-media-carousel').hasClass('display-none')) {
           $('.why-media-carousel').addClass('display-none');
         }
-      } else if (slide === 2) {
+      }
+      else if (slide === 2) {
+        if ($('.tech-media-carousel').hasClass('display-none')) {
+          $('.tech-media-carousel').removeClass('display-none');
+        }
+        if (!$('.sus-media-carousel').hasClass('display-none')) {
+          $('.sus-media-carousel').addClass('display-none');
+        }
+        if (!$('.cust-media-carousel').hasClass('display-none')) {
+          $('.cust-media-carousel').addClass('display-none');
+        }
+        if (!$('.why-media-carousel').hasClass('display-none')) {
+          $('.why-media-carousel').addClass('display-none');
+        }
+      }
+      else if (slide === 3) {
+        if ($('.cust-media-carousel').hasClass('display-none')) {
+          $('.cust-media-carousel').removeClass('display-none');
+        }
+        if (!$('.sus-media-carousel').hasClass('display-none')) {
+          $('.sus-media-carousel').addClass('display-none');
+        }
+        if (!$('.tech-media-carousel').hasClass('display-none')) {
+          $('.tech-media-carousel').addClass('display-none');
+        }
+        if (!$('.why-media-carousel').hasClass('display-none')) {
+          $('.why-media-carousel').addClass('display-none');
+        }
+      } else if (slide === 4) {
         if ($('.why-media-carousel').hasClass('display-none')) {
           $('.why-media-carousel').removeClass('display-none');
         }
         if (!$('.sus-media-carousel').hasClass('display-none')) {
           $('.sus-media-carousel').addClass('display-none');
+        }
+        if (!$('.tech-media-carousel').hasClass('display-none')) {
+          $('.tech-media-carousel').addClass('display-none');
+        }
+        if (!$('.cust-media-carousel').hasClass('display-none')) {
+          $('.cust-media-carousel').addClass('display-none');
         }
       }
     });
