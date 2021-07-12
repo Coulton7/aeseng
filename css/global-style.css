@@ -4032,6 +4032,10 @@ h2.carousel-text{
     position: absolute;
     padding-top: 29.65em
   }
+
+  .slide-curve-down{
+    right: 73%;
+  }
 }
 
 @media screen and (min-width: 2000px) {
@@ -4051,4 +4055,9 @@ h2.carousel-text{
     position: absolute;
     padding-top: 29.65em
   }
+
+  .slide-curve-down{
+    right: 73%;
+  }
+}
 }
