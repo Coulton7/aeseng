@@ -2709,6 +2709,26 @@ h2.carousel-text{
   transform: translateY(25%);
 }
 
+.flex-col{
+  display: flex;
+  flex-flow: column;
+}
+
+.flex-grow-1{
+  flex: 1 0 auto;
+}
+
+.carousel-vertical{
+  height: 100%;
+}
+
+.carousel-inner.flex .item.active{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
 @keyframes fadeLogo {
   0% {
     display: block;
