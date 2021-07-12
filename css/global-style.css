@@ -3541,7 +3541,7 @@ h2.carousel-text{
   }
 
   .prod-slider-row>[class*='col-'] {
-    padding-bottom: 0.5em 0 0 0.5em;
+    padding: 0.5em 0 0 0.5em;
   }
 
   .prod-slide-padding {
@@ -3804,7 +3804,7 @@ h2.carousel-text{
   }
 
   .prod-slider-row>[class*='col-'] {
-    padding-bottom: 0.5em 0 0 0.5em;
+    padding: 0.5em 0 0 0.5em;
   }
 
   .prod-slide-padding {
