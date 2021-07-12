@@ -2669,6 +2669,10 @@ h2.carousel-text{
   background-image: linear-gradient(to bottom,#e5e5e7,#e5e5e7 50%,#002a5b 50%);
 }
 
+.brochure-carousel .align-self{
+  align-self: flex-end
+}
+
 .button-slider .carousel-inner .item.active {
     margin-bottom: 1em;
 }
@@ -3308,6 +3312,10 @@ h2.carousel-text{
     background-image: none;
   }
 
+  .brochure-carousel .align-self{
+    align-self: center;
+  }
+
   .carousel-inner.horizontal > .item.next,
   .carousel-inner.horizontal > .item.active.right {
     -webkit-transform: translate3d(-100%, 0, 0);
@@ -3675,6 +3683,10 @@ h2.carousel-text{
     background-image: none;
   }
 
+  .brochure-carousel .align-self{
+    align-self: center;
+  }
+
   .carousel-inner.horizontal > .item.next,
   .carousel-inner.horizontal > .item.active.right {
     -webkit-transform: translate3d(-50%, 0, 0);
@@ -3867,6 +3879,10 @@ h2.carousel-text{
   .brochure-carousel{
     background-image: linear-gradient(to bottom,#e5e5e7,#e5e5e7 50%,#002a5b 50%);
     background-color: #e5e5e7;
+  }
+
+  .brochure-carousel .align-self{
+    align-self: flex-end;
   }
 
   .carousel-inner.horizontal > .item.next,
