@@ -3684,6 +3684,9 @@ h2.carousel-text{
     padding-top: 29.65em
   }
 
+  .slide-curve-down{
+    right: 81%;
+  }
 }
 
 @media screen and (min-width: 992px) {
@@ -3872,6 +3875,9 @@ h2.carousel-text{
     padding-top: 26.65em
   }
 
+  .slide-curve-down{
+    right: 90%;
+  }
 }
 
 @media screen and (min-width: 1200px) {
@@ -3977,7 +3983,6 @@ h2.carousel-text{
   .slide-curve-down{
     right: 90%;
   }
-}
 }
 
 @media screen and (min-width: 1500px) {
