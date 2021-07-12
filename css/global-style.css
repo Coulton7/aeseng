@@ -4045,6 +4045,10 @@ h2.carousel-text{
   .slide-curve-down{
     right: 73%;
   }
+
+  .shadow-box-content{
+    margin-left: 8em;
+  }
 }
 
 @media screen and (min-width: 2000px) {
