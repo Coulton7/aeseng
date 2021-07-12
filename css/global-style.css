@@ -3338,14 +3338,20 @@ h2.carousel-text{
     right: 0;
   }
 
-  .shadow-box{
-    right: 7%;
-    width: 105%;
-  }
-
   .indicator-container{
     position: absolute;
     padding-top: 26.65em
+  }
+
+  .shadow-box{
+    right: 0;
+    width: 100%;
+    border-radius: 0;
+    transform: skewX(0);
+  }
+
+  .shadow-box-content{
+    transform: skewX(0);
   }
 }
 
@@ -3721,6 +3727,15 @@ h2.carousel-text{
 
   .slide-curve-down{
     right: 81%;
+  }
+
+  .shadow-box{
+    border-radius: 0 40px 10px 0;
+    transform: skewX(-30deg);
+  }
+
+  .shadow-box-content{
+    transform: skewX(30deg);
   }
 }
 
