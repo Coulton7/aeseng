@@ -4180,7 +4180,7 @@ h2.carousel-text{
   }
 }
 
-@media screen and (aspect-ratio: 33/100){
+@media screen and (aspect-ratio: 97/32){
   .aspect-ratio-padding{
     padding-bottom: 32.99%
   }
