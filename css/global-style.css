@@ -3348,7 +3348,7 @@ h2.carousel-text{
     transform: skewX(0);
   }
 
-  .center-carousel-img{
+  .center-brochure-img{
     transform: translateY(0);
   }
 
@@ -3736,7 +3736,7 @@ h2.carousel-text{
     transform: skewX(-30deg);
   }
 
-  .center-carousel-img{
+  .center-brochure-img{
     transform: translateY(0);
   }
 
@@ -3936,7 +3936,7 @@ h2.carousel-text{
     padding-top: 26.65em
   }
 
-  .center-carousel-img{
+  .center-brochure-img{
     transform: translateY(25%);
   }
 
@@ -4045,7 +4045,7 @@ h2.carousel-text{
     padding-top: 29.65em
   }
 
-  .center-carousel-img{
+  .center-brochure-img{
     transform: translateY(25%);
   }
 
@@ -4111,7 +4111,7 @@ h2.carousel-text{
     padding-top: 29.65em
   }
 
-  .center-carousel-img{
+  .center-brochure-img{
     transform: translateY(0);
   }
 
@@ -4142,7 +4142,7 @@ h2.carousel-text{
     padding-top: 29.65em
   }
 
-  .center-carousel-img{
+  .center-brochure-img{
     transform: translateY(0);
   }
 
