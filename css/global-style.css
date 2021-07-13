@@ -4120,7 +4120,7 @@ h2.carousel-text{
   }
 
   .shadow-box-content{
-    margin-left: 8em;
+    margin-left: 6em;
   }
 }
 
@@ -4148,5 +4148,9 @@ h2.carousel-text{
 
   .slide-curve-down{
     right: 73%;
+  }
+
+  .shadow-box-content{
+    margin-left: 8em;
   }
 }
