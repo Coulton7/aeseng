@@ -3355,7 +3355,7 @@ h2.carousel-text{
 
   .flex-col{
     display: flex;
-    flex-flow: column nowrap;
+    flex-flow: column wrap;
   }
 
   .shadow-box-content{
@@ -3752,7 +3752,7 @@ h2.carousel-text{
 
   .flex-col{
     display: flex;
-    flex-flow: column nowrap;
+    flex-flow: column wrap;
   }
 }
 
@@ -3953,7 +3953,7 @@ h2.carousel-text{
 
   .flex-col{
     display: flex;
-    flex-flow: column wrap;
+    flex-flow: column nowrap;
   }
 
   .slide-curve-down{
@@ -4067,7 +4067,7 @@ h2.carousel-text{
 
   .flex-col{
     display: flex;
-    flex-flow: column wrap;
+    flex-flow: column nowrap;
   }
 
   .slide-curve-down{
