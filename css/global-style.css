@@ -4156,25 +4156,25 @@ h2.carousel-text{
   }
 }
 
-@media (aspect-ratio: 8/5){
+@media (max-aspect-ratio: 8/5){
   .aspect-ratio-padding{
     padding-bottom: 62.5%;
   }
 }
 
-@media (aspect-ratio: 3/2){
+@media (max-aspect-ratio: 3/2){
   .aspect-ratio-padding{
     padding-bottom: 66.66%;
   }
 }
 
-@media (aspect-ratio: 4/3){
+@media (max-aspect-ratio: 4/3){
   .aspect-ratio-padding{
     padding-bottom: 75%;
   }
 }
 
-@media (aspect-ratio: 16/9){
+@media (min-aspect-ratio: 16/9){
   .aspect-ratio-padding{
     padding-bottom: 56.25%;
   }
