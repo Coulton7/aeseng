@@ -3353,6 +3353,11 @@ h2.carousel-text{
     transform: translateY(0);
   }
 
+  .flex-col{
+    display: flex;
+    flex-flow: column nowrap;
+  }
+
   .shadow-box-content{
     transform: skewX(0);
   }
@@ -3744,6 +3749,11 @@ h2.carousel-text{
   .shadow-box-content{
     transform: skewX(30deg);
   }
+
+  .flex-col{
+    display: flex;
+    flex-flow: column nowrap;
+  }
 }
 
 @media screen and (min-width: 992px) {
@@ -3941,6 +3951,11 @@ h2.carousel-text{
     transform: translateY(25%);
   }
 
+  .flex-col{
+    display: flex;
+    flex-flow: column wrap;
+  }
+
   .slide-curve-down{
     right: 90%;
   }
@@ -4048,6 +4063,11 @@ h2.carousel-text{
 
   .center-brochure-img{
     transform: translateY(25%);
+  }
+
+  .flex-col{
+    display: flex;
+    flex-flow: column wrap;
   }
 
   .slide-curve-down{
