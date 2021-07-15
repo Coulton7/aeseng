@@ -2207,8 +2207,7 @@ filter: invert(1%) sepia(78%) saturate(3008%) hue-rotate(205deg) brightness(83%)
 }
 
 .indicator-container{
-  position: absolute;
-  padding-top: 29.65em
+  position: relative;
 }
 
 .home-carousel{
@@ -3346,8 +3345,7 @@ h2.carousel-text{
   }
 
   .indicator-container{
-    position: absolute;
-    padding-top: 26.65em
+    position: relative;
   }
 
   .shadow-box{
@@ -3737,8 +3735,7 @@ h2.carousel-text{
   }
 
   .indicator-container{
-    position: absolute;
-    padding-top: 29.65em
+    position: relative;
   }
 
   .slide-curve-down{
@@ -3951,8 +3948,7 @@ h2.carousel-text{
   }
 
   .indicator-container{
-    position: absolute;
-    padding-top: 26.65em
+    position: relative;
   }
 
   .center-brochure-img{
@@ -4065,8 +4061,7 @@ h2.carousel-text{
   }
 
   .indicator-container{
-    position: absolute;
-    padding-top: 29.65em
+    position: relative;
   }
 
   .center-brochure-img{
@@ -4136,8 +4131,7 @@ h2.carousel-text{
   }
 
   .indicator-container{
-    position: absolute;
-    padding-top: 29.65em
+    position: relative;
   }
 
   .center-brochure-img{
@@ -4167,8 +4161,7 @@ h2.carousel-text{
   }
 
   .indicator-container{
-    position: absolute;
-    padding-top: 29.65em
+    position: relative;
   }
 
   .center-brochure-img{
