@@ -2211,6 +2211,14 @@ filter: invert(1%) sepia(78%) saturate(3008%) hue-rotate(205deg) brightness(83%)
   padding-top: 26.65em
 }
 
+.indicators-container{
+  position: relative;
+}
+
+.indicators-container .carousel-indicators{
+  text-align: center;
+}
+
 .home-carousel{
   margin-bottom: 1em;
   margin-right: 0.5em;
