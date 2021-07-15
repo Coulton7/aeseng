@@ -2752,6 +2752,7 @@ h2.carousel-text{
 .carousel-control{
   top: 45%;
   color: #ffffff;
+  opacity: 1;
 }
 
 .media-carousel-block{
