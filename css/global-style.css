@@ -2700,6 +2700,14 @@ h2.carousel-text{
   bottom: 1em
 }
 
+.shadow-contaier{
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
+  position: relative;
+  bottom: 1em
+}
+
 .flex-text-overflow-container{
   min-width: 0;
 }
