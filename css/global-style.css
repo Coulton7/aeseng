@@ -2740,6 +2740,11 @@ h2.carousel-text{
   min-width: 0;
 }
 
+.carousel-control{
+  top: 45%;
+  color: #ffffff;
+}
+
 @keyframes fadeLogo {
   0% {
     display: block;
