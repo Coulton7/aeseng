@@ -2745,6 +2745,10 @@ h2.carousel-text{
   color: #ffffff;
 }
 
+.media-carousel-block{
+  margin-top: -2em;
+}
+
 @keyframes fadeLogo {
   0% {
     display: block;
