@@ -2801,6 +2801,18 @@ h2.carousel-text{
   right: 2%;
 }
 
+.shadow-box-tabs .nav-tabs li a{
+  padding: 0.2em;
+  background-color: rgba(0,0,0,0.8);
+  border-radius: 0;
+  border-bottom: none;
+}
+
+.shadow-box-tabs .nav-tabs li a:active{
+  color:#ffffff;
+  background-color: rgba(0,0,0,0.5);
+}
+
 @media all and (transform-3d), (-webkit-transform-3d) {
 
   .carousel-fade .carousel-inner>.item.next,
