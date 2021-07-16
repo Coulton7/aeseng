@@ -2285,6 +2285,10 @@ filter: invert(1%) sepia(78%) saturate(3008%) hue-rotate(205deg) brightness(83%)
   overflow-x: visible;
 }
 
+.carousel-text-shadow{
+  text-shadow: 1px 1px 1px #000000;
+}
+
 .carousel-indicators li, .carousel-indicators li.active{
     text-indent:0;
     width:auto;
