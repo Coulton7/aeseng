@@ -2693,10 +2693,15 @@ h2.carousel-text{
   filter: invert(9%) sepia(4%) saturate(64%) hue-rotate(202deg) brightness(97%) contrast(99%);
 }
 
-.icon-container{
+.logo-container{
   height: 100%;
   position: relative;
   bottom: 2em;
+}
+
+.icon-container{
+  height: 100%;
+  position: relative;
 }
 
 .shadow-box{
