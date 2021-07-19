@@ -2289,6 +2289,14 @@ filter: invert(1%) sepia(78%) saturate(3008%) hue-rotate(205deg) brightness(83%)
   text-shadow: 1px 1px 1px #000000;
 }
 
+.next-arrow-space{
+  right: -0.5em;
+}
+
+.prev-arrow-space{
+  left: 0.5em;
+}
+
 .carousel-indicators li, .carousel-indicators li.active{
     text-indent:0;
     width:auto;
