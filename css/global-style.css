@@ -2256,7 +2256,7 @@ filter: invert(1%) sepia(78%) saturate(3008%) hue-rotate(205deg) brightness(83%)
 }
 
 #carousel-fade .carousel-inner .item:nth-child(3){
-  background-image: url(https://static.aesseal.com/photo/service/Chemical-Pharm_15890470.jpg);
+  background-image: url(https://static/aesseal.com/photo/service/Chem-Against-tanks7.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   padding-top: 9em;
@@ -2265,7 +2265,7 @@ filter: invert(1%) sepia(78%) saturate(3008%) hue-rotate(205deg) brightness(83%)
 }
 
 #carousel-fade .carousel-inner .item:nth-child(4){
-  background-image: url(https://static.aesseal.com/photo/service/Test-Engineers-Pro-Jul11-001b.jpg);
+  background-image: url(https://static/aesseal.com/photo/why/DJI_0011.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   padding-top: 9em;
@@ -2810,7 +2810,6 @@ h2.carousel-text{
 .shadow-box-tabs .nav-tabs li.active a{
   color:#ffffff;
   background-color: transparent;
-  border-bottom: none;
 }
 
 .img-right{
