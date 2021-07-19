@@ -2929,8 +2929,9 @@ h2.carousel-text{
     -webkit-transition: -webkit-transform .6s ease-in-out;
     -o-transition: -o-transform .6s ease-in-out;
     transition: transform .6s ease-in-out;
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
+    -webkit-backface-visibility:hidden;
+    -moz-backface-visibility:hidden;
+    backface-visibility:hidden;
   }
   .carousel-inner.horizontal > .item.next,
   .carousel-inner.horizontal > .item.active.right {
