@@ -2290,11 +2290,11 @@ filter: invert(1%) sepia(78%) saturate(3008%) hue-rotate(205deg) brightness(83%)
 }
 
 .next-arrow-space{
-  right: -0.5em;
+  right: -0.5em!important;
 }
 
 .prev-arrow-space{
-  left: 0.5em;
+  left: -0.5em;
 }
 
 .carousel-indicators li, .carousel-indicators li.active{
