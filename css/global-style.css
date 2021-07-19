@@ -2256,7 +2256,7 @@ filter: invert(1%) sepia(78%) saturate(3008%) hue-rotate(205deg) brightness(83%)
 }
 
 #carousel-fade .carousel-inner .item:nth-child(3){
-  background-image: url(https://static/aesseal.com/photo/service/Chem-Against-tanks7.jpg);
+  background-image: url(https://static.aesseal.com/photo/service/Chem-Against-tanks7.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   padding-top: 9em;
@@ -2265,7 +2265,7 @@ filter: invert(1%) sepia(78%) saturate(3008%) hue-rotate(205deg) brightness(83%)
 }
 
 #carousel-fade .carousel-inner .item:nth-child(4){
-  background-image: url(https://static/aesseal.com/photo/why/DJI_0011.jpg);
+  background-image: url(https://static.aesseal.com/photo/why/DJI_0011.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   padding-top: 9em;
