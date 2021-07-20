@@ -2776,7 +2776,8 @@ h2.carousel-text{
 
 .media-carousel-block{
   margin-top: -7em;
-  padding-bottom: 2em
+  padding-bottom: 2em;
+  z-index: 2;
 }
 
 @keyframes fadeLogo {
