@@ -2780,6 +2780,10 @@ h2.carousel-text{
   z-index: 2;
 }
 
+.media-carousel-block .nav li a{
+  color:#000000;
+}
+
 @keyframes fadeLogo {
   0% {
     display: block;
