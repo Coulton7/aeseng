@@ -3449,6 +3449,10 @@ h2.carousel-text{
   .media-carousel-block .nav li a{
     color:#ffffff;
   }
+
+  .shadow-box-tabs .nav-tabs>li{
+    float: left;
+  }
 }
 
 @media screen and (min-width: 768px) {
