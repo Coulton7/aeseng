@@ -2818,6 +2818,7 @@ h2.carousel-text{
   padding: 0.2em;
   border-radius: 0;
   border-bottom: none;
+  border: 1px solid transparent;
 }
 
 .shadow-box-tabs .nav-tabs li.active a{
@@ -3444,6 +3445,10 @@ h2.carousel-text{
     padding-top: 3em;
     padding-bottom: 3em;
   }
+
+  .media-carousel-block .nav li a{
+    color:#ffffff;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -3841,6 +3846,10 @@ h2.carousel-text{
   .carousel-fill{
     padding-top: 5em;
     padding-bottom: 5em;
+  }
+
+  .media-carousel-block .nav li a{
+    color:#000000;
   }
 }
 
