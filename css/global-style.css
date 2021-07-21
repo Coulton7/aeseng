@@ -3451,7 +3451,7 @@ h2.carousel-text{
   }
 
   .mobile-carousel-caption{
-    bottom: 0;
+    bottom: 3em;
     position: relative;
   }
 
