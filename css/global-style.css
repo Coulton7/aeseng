@@ -4173,8 +4173,8 @@ h2.carousel-text{
   }
 
   .carousel-fill{
-    padding-top: 5em;
-    padding-bottom: 5em;
+    padding-top: 3.5em;
+    padding-bottom: 3.5em;
   }
 }
 
@@ -4245,6 +4245,11 @@ h2.carousel-text{
 
   .shadow-box-content{
     margin-left: 6em;
+  }
+
+  .carousel-fill{
+    padding-top: 5em;
+    padding-bottom: 5em;
   }
 }
 
