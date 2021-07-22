@@ -90,7 +90,7 @@
               lastMode = mode;
             }
           });
-        });
+        }
       });
 
 })(jQuery);
