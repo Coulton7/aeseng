@@ -3469,6 +3469,11 @@ h2.carousel-text{
   .shadow-box-tabs .nav-tabs>li{
     float: left;
   }
+
+  .media-carousel-block{
+    position: relative;
+    bottom: 0;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -3878,6 +3883,11 @@ h2.carousel-text{
   .media-carousel-block .nav li a{
     color:#000000;
   }
+
+  .media-carousel-block{
+    position: relative;
+    bottom: 0;
+  }
 }
 
 @media screen and (min-width: 992px) {
@@ -4092,6 +4102,11 @@ h2.carousel-text{
   .carousel-fill{
     padding-top: 4em;
     padding-bottom: 4em;
+  }
+
+  .media-carousel-block{
+    position: sticky;
+    bottom: 0;
   }
 }
 
