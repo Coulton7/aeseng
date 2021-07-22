@@ -61,22 +61,36 @@
     });
   });
 
-  function checkOffset() {
-    if ($('.media-carousel-block').offset().top + $('.media-carousel-block').height() >= $('.mobile-search').offset().top - 10)
-      $('.media-carousel-block').css('position', 'relative');
-
-    if ($(document).scrollTop() + window.innerHeight < $('.mobile-search').offset().top)
-      $('.media-carousel-block').css('position', 'fixed'); // restore when you scroll up
-  }
-
   $(document).ready(function() {
-    if ($(window).width() > 992) {
-      $(document).scroll(function() {
-        checkOffset();
-      });
-    } else {
-      $('.media-carousel-block').css('position', 'relative');
+        var sliderTop = $('.media-carousel-block').offset().top;
+        var sliderStop = $('.mobile-search').offset().top;
+        var lastMode = "relative";
 
-    }
-  });
+        if ($(window).width() > 992) {
+
+          $(window).scroll(function() {
+            var mode;
+            if ($(this).scrollTop() >= sliderTop) {
+              if ($(this).scrollTop() - sliderStop + $('.media-carousel-block').height() > 0)
+                mode = 'relative';
+              else
+                mode = 'fixed';
+            } else {
+              mode = 'relative';
+            }
+
+            if (lastMode !== mode) {
+              if (mode == 'fixed') {
+                $('#nav').css('position', 'fixed');
+                $('#nav').css('bottom', '0');
+              } else {
+                $('#nav').css('position', 'relative');
+                $('#nav').css('bottom', navTop);
+              }
+              lastMode = mode;
+            }
+          });
+        });
+      });
+
 })(jQuery);
