@@ -60,7 +60,7 @@ function aeseng_preprocess_node(&$variables) {
   }
 }
 
-function hook_form_alter(&$form, &$form_state, $form_id){
+function aeseng_form_alter(&$form, &$form_state, $form_id){
   if($form_id == 'search-api-page-search-form-node-taxonomy-search'){
     $form['search-api-page-search-form-node-taxonomy-search']['#attributes']['placeholder'] = t('Search');
 
