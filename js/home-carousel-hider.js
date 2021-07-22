@@ -60,37 +60,4 @@
       }
     });
   });
-
-  $(document).ready(function() {
-        var sliderTop = $('.media-carousel-block').offset().top;
-        var sliderStop = $('.mobile-search').offset().top;
-        var lastMode = "relative";
-
-        if ($(window).width() > 992) {
-
-          $(window).scroll(function() {
-            var mode;
-            if ($(this).scrollTop() >= sliderTop) {
-              if ($(this).scrollTop() - sliderStop + $('.media-carousel-block').height() > 0)
-                mode = 'relative';
-              else
-                mode = 'fixed';
-            } else {
-              mode = 'relative';
-            }
-
-            if (lastMode !== mode) {
-              if (mode == 'fixed') {
-                $('.media-carousel-block').css('position', 'fixed');
-                $('.media-carousel-block').css('bottom', '0');
-              } else {
-                $('.media-carousel-block').css('position', 'relative');
-                $('.media-carousel-block').css('bottom', sliderTop);
-              }
-              lastMode = mode;
-            }
-          });
-        }
-      });
-
 })(jQuery);

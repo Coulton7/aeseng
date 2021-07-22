@@ -2778,7 +2778,7 @@ h2.carousel-text{
   margin-top: -7em;
   padding-bottom: 2em;
   z-index: 2;
-  position: relative;
+  position: sticky;
 }
 
 .media-carousel-block .nav li a{
