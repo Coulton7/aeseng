@@ -4101,8 +4101,8 @@ h2.carousel-text{
   }
 
   .carousel-fill{
-    padding-top: 4em;
-    padding-bottom: 4em;
+    padding-top: 8em;
+    padding-bottom: 0;
   }
 
   .media-carousel-block{
