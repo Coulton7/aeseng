@@ -60,6 +60,18 @@ function aeseng_preprocess_node(&$variables) {
   }
 }
 
+function hook_form_alter(&$form, &$form_state, $form_id){
+  if($form_id == 'search-api-page-search-form-node-taxonomy-search'){
+    $form['search-api-page-search-form-node-taxonomy-search']['#attributes']['placeholder'] = t('Search');
+
+    $form['button']= array(
+      '#type' => 'item',
+      '#markup' => '<button type= "submit" id="edit-submit-5" name="op" class="btn btn-primary form-submit"><i class="fas fa-search"></i></button>',
+      '#weight' => 700,
+    );
+  }
+}
+
 function aeseng_preprocess_maintenance_page(&$variables) {
   if (isset($variables['db_is_active']) && !$variables['db_is_active']) {
 // Template suggestion for offline site
