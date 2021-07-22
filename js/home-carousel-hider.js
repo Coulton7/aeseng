@@ -81,11 +81,11 @@
 
             if (lastMode !== mode) {
               if (mode == 'fixed') {
-                $('#nav').css('position', 'fixed');
-                $('#nav').css('bottom', '0');
+                $('.media-carousel-block').css('position', 'fixed');
+                $('.media-carousel-block').css('bottom', '0');
               } else {
-                $('#nav').css('position', 'relative');
-                $('#nav').css('bottom', navTop);
+                $('.media-carousel-block').css('position', 'relative');
+                $('.media-carousel-block').css('bottom', sliderTop);
               }
               lastMode = mode;
             }
