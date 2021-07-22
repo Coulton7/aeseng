@@ -3457,6 +3457,8 @@ h2.carousel-text{
 
   .media-carousel-block .nav li a{
     color:#ffffff;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
   }
 
   .shadow-box-tabs .nav-tabs>li{
