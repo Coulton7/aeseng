@@ -2778,6 +2778,7 @@ h2.carousel-text{
   margin-top: -7em;
   padding-bottom: 2em;
   z-index: 2;
+  position: -webkit-sticky;
   position: sticky;
   bottom: 0;
 }
@@ -4105,6 +4106,7 @@ h2.carousel-text{
   }
 
   .media-carousel-block{
+    position: -webkit-sticky;
     position: sticky;
     bottom: 0;
   }
