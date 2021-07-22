@@ -62,10 +62,10 @@
   });
 
   function checkOffset() {
-    if ($('.media-carousel-block').offset().top + $('.media-carousel-block').height() >= $('.region-preface-lower').offset().top - 10)
+    if ($('.media-carousel-block').offset().top + $('.media-carousel-block').height() >= $('.mobile-search').offset().top - 10)
       $('.media-carousel-block').css('position', 'relative');
 
-    if ($(document).scrollTop() + window.innerHeight < $('.region-preface-lower').offset().top)
+    if ($(document).scrollTop() + window.innerHeight < $('.mobile-search').offset().top)
       $('.media-carousel-block').css('position', 'fixed'); // restore when you scroll up
   }
 
