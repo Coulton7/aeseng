@@ -2779,6 +2779,7 @@ h2.carousel-text{
   padding-bottom: 2em;
   z-index: 2;
   position: sticky;
+  bottom: 0;
 }
 
 .media-carousel-block .nav li a{
