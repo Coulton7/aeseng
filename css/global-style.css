@@ -3390,7 +3390,6 @@ h2.carousel-text{
 
 .media-carousel-block .carousel-indicators li, .media-carousel-block .carousel-indicators li:hover, .media-carousel-block .carousel-indicators li.active{
     width: 49%;
-    margin: 0 0 0 1em;
   }
 
   .carousel-indicators li:nth-child(1), .carousel-indicators li:nth-child(2){
