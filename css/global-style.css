@@ -3023,6 +3023,13 @@ h2.carousel-text{
     top: 0;
     margin-bottom: -33% !important;
   }
+
+  .carousel-title{
+    font-size: 3em;
+    line-height: 1em;
+    font-weight: 700;
+    text-shadow: 0 1px 2px rgb(0 0 0 / 60%)
+  }
 }
 
 @media screen and (max-width:500px) and (min-width:371px) {
@@ -3063,6 +3070,13 @@ h2.carousel-text{
     top: 0;
     margin-bottom: -100% !important;
   }
+
+  .carousel-title{
+    font-size: 3.5em;
+    line-height: 1em;
+    font-weight: 700;
+    text-shadow: 0 1px 2px rgb(0 0 0 / 60%)
+  }
 }
 
 @media screen and (max-width: 767px) and (min-width: 501px) {
@@ -3097,6 +3111,13 @@ h2.carousel-text{
     right: 0;
     top: 0;
     margin-bottom: -100% !important;
+  }
+
+  .carousel-title{
+    font-size: 3.5em;
+    line-height: 1em;
+    font-weight: 700;
+    text-shadow: 0 1px 2px rgb(0 0 0 / 60%)
   }
 }
 
@@ -3938,6 +3959,13 @@ h2.carousel-text{
 
   .next-arrow-space{
     right: -0.5em!important;
+  }
+
+  .carousel-title{
+    font-size: 3.5em;
+    line-height: 1em;
+    font-weight: 700;
+    text-shadow: 0 1px 2px rgb(0 0 0 / 60%)
   }
 }
 
