@@ -3488,6 +3488,11 @@ h2.carousel-text{
     position: relative;
     bottom: 0;
   }
+
+  .net-zero-container{
+    .bottom: 6em;
+    z-index: 10;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -3905,6 +3910,11 @@ h2.carousel-text{
   .media-carousel-block{
     position: relative;
     bottom: 0;
+  }
+
+  .net-zero-container{
+    .bottom: 4em;
+    z-index: 10;
   }
 }
 
