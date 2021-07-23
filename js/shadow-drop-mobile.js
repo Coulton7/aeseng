@@ -1,7 +1,6 @@
 (function($) {
-  $(document).ready(function() {
-    $(".dropdown-menu li a").click(function(){
-      $(this).parents(".dropdown").find('.shadow-drop-btn').html($(this).text() + ' <span class="caret"></span>');
-      $(this).parents(".dropdown").find('.shadow-drop-btn').val($(this).data('value'));
-    });
+  $(".dropdown-menu li a").click(function(){
+    $(".shadow-drop:first-child").text($(this).text());
+    $(".shadow-drop:first-child").val($(this).text());
+ });
 })(jQuery);
