@@ -2794,6 +2794,19 @@ h2.carousel-text{
   border: 1px solid #ffffff;
 }
 
+.shadow-drop-menu{
+  background-color: #000000;
+}
+
+.shadow-drop-menu>li>a{
+  color: #ffffff;
+}
+
+.shadow-drop-menu>.active>a, .shadow-drop-menu>.active>a:hover, .shadow-drop-menu>.active>a:focus{
+  background-color: #002a5b;
+  background-image: none;
+}
+
 .shadow-drop-btn{
   margin-bottom: 2em;
 }
