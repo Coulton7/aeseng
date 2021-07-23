@@ -1,9 +1,7 @@
 (function($) {
   $(document).ready(function() {
-    $(function(){
-       $(".dropdown-menu").on('click', 'li a', function(){
-         $(".shadow-drop-btn:first-child").text($(this).text());
-         $(".shadow-drop-btn:first-child").val($(this).text());
-      });
-   });
+    $(".dropdown-menu li a").click(function(){
+      $(this).parents(".dropdown").find('.shadow-drop-btn').html($(this).text() + ' <span class="caret"></span>');
+      $(this).parents(".dropdown").find('.shadow-drop-btn').val($(this).data('value'));
+    });
 })(jQuery);
