@@ -2789,10 +2789,13 @@ h2.carousel-text{
 
 .shadow-drop{
   width: 100%;
-  margin-bottom: 2em;
   background-color: rgba(0, 0, 0, 0.5);
   color: #ffffff;
   border: 1px solid #ffffff;
+}
+
+.btn.shadow-drop{
+  margin-bottom: 2em;
 }
 
 @keyframes fadeLogo {
