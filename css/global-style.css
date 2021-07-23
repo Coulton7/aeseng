@@ -2812,6 +2812,32 @@ h2.carousel-text{
   margin-bottom: 2em;
 }
 
+.social-media{
+  position: absolute;
+  width: 100%;
+  top: 24em;
+  z-index: 10;
+  background: transparent;
+}
+
+.social-media ul{
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+  padding-left: 0;
+  flex-wrap: wrap;
+  position: relative;
+  width: 100%;
+  right: 1em;
+}
+
+.social-media ul li a{
+  color: #ffffff;
+}
+
 @keyframes fadeLogo {
   0% {
     display: block;
