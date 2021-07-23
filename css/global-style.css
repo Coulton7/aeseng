@@ -2836,6 +2836,7 @@ h2.carousel-text{
 
 .social-media ul li a{
   color: #ffffff;
+  border-bottom: none;
 }
 
 .social-media ul li:nth-child(1) a {
