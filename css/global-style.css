@@ -2823,6 +2823,10 @@ h2.carousel-text{
   border: 1px solid transparent;
 }
 
+.shadow-box-tabs .nav-tabs li a:hover{
+  margin-bottom: 5px;
+}
+
 .shadow-box-tabs .nav-tabs li.active a{
   color:#ffffff;
   background-color: transparent;
@@ -3380,8 +3384,17 @@ h2.carousel-text{
   }
 
   .carousel-indicators li, .carousel-indicators li.active{
-      width: auto;
-      height: auto;
+    width: auto;
+    height: auto;
+  }
+
+  .carousel-indicators li, .media-carousel-block .carousel-indicators li.active{
+    width: 49%;
+    margin: 0 0 0 1em;
+  }
+
+  .carousel-indicators li:nth-child(1), .carousel-indicators li:nth-child(2){
+    margin-bottom: 1em;
   }
 
   #myCarousel li{
@@ -3874,6 +3887,10 @@ h2.carousel-text{
     padding-bottom: 0;
     padding-left: 0;
     padding-right: 0;
+  }
+
+  .carousel-indicators li:nth-child(1), .carousel-indicators li:nth-child(2){
+    margin-bottom: 1px;
   }
 
   .mobile-carousel-caption{
