@@ -3005,10 +3005,13 @@ h2.carousel-text{
 
 @media screen and (max-width:370px) {
   .search-block {
-    margin: 0 0 0 -3.9em;
+    margin: 0 0 0 0;
     position:relative;
     top: auto;
     left: 0;
+    width: 62%!important;
+    padding-left: 0.1em;
+    padding-right: 0.1em;
   }
 
   .front__flex-margin {
