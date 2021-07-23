@@ -2838,6 +2838,57 @@ h2.carousel-text{
   color: #ffffff;
 }
 
+.social-media ul li:nth-child(1) a {
+  margin-right: 0.4em;
+  font-size: 2.5em;
+}
+
+.social-media ul li:nth-child(1) a:hover {
+  color: #1da1f2;
+}
+
+.social-media ul li:nth-child(2) a {
+  margin-right: 0.4em;
+  font-size: 2.5em;
+}
+
+.social-media ul li:nth-child(2) a:hover {
+  color: #0077b5;
+}
+
+.social-media ul li:nth-child(3) a {
+  margin-right: 0.4em;
+  font-size: 2.5em;
+}
+
+.social-media ul li:nth-child(3) a:hover {
+  color: #d34836;
+}
+
+.social-media ul li:nth-child(4) a {
+  margin-right: 0.4em;
+  font-size: 2.5em;
+}
+
+.social-media ul li:nth-child(4) a:hover {
+  color: #d34836;
+}
+
+.social-media ul li:nth-child(5) a {
+  margin-right: 0.4em;
+  font-size: 2.5em;
+}
+
+.social-media ul li:nth-child(5) a:hover {
+  color: #002a5b;
+}
+
+.socialmedia ul li:nth-child(6) a {
+  color: #d34836;
+  margin-right: 0.4em;
+  font-size: 2.5em;
+}
+
 @keyframes fadeLogo {
   0% {
     display: block;
