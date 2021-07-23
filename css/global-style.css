@@ -2815,7 +2815,7 @@ h2.carousel-text{
 .social-media{
   position: absolute;
   width: 100%;
-  top: 24em;
+  top: 4em;
   z-index: 10;
   background: transparent;
 }
