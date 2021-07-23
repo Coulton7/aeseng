@@ -3493,6 +3493,18 @@ h2.carousel-text{
     .bottom: 6em;
     z-index: 10;
   }
+
+  .carousel-control{
+    top: 70%;
+  }
+
+  .prev-arrow-space{
+    left: 0em
+  }
+
+  .next-arrow-space{
+    right: 0.25em!important;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -3915,6 +3927,18 @@ h2.carousel-text{
   .net-zero-container{
     .bottom: 4em;
     z-index: 10;
+  }
+
+  .carousel-control{
+    top: 45%;
+  }
+
+  .prev-arrow-space{
+    left: -0.5em
+  }
+
+  .next-arrow-space{
+    right: -0.5em!important;
   }
 }
 
