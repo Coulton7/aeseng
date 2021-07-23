@@ -2796,6 +2796,7 @@ h2.carousel-text{
 
 .shadow-drop-menu{
   background-color: #000000;
+  width: 100%;
 }
 
 .shadow-drop-menu>li>a{
