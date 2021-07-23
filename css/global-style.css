@@ -2787,6 +2787,14 @@ h2.carousel-text{
   color:#000000;
 }
 
+.shadow-drop{
+  width: 100%;
+  margin-bottom: 2em;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #ffffff;
+  border: 1px solid #ffffff;
+}
+
 @keyframes fadeLogo {
   0% {
     display: block;
