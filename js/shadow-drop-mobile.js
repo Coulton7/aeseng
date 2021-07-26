@@ -5,7 +5,7 @@
  });
 
  $(function() {
-  $(document).scroll(function(){
+  $(window).scroll(function(){
     var $container = $(".net-zero-container", ".mobile-carousel-caption");
     $container.toggleClass('scrolled', $(this).scrollTop() > $container.height());
   });
