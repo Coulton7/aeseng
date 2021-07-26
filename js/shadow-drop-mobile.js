@@ -5,7 +5,7 @@
  });
 
  $(window).on("scroll", function() {
-   var wScroll = ($(this).scrollTop() / $(window).height()) + 100;
+   var wScroll = ($(this).scrollTop() / $(window).height()) - 100;
    $('.net-zero-container').css({
      'transform': 'translate( 25%, -' + (wScroll) + '%)'
    });
