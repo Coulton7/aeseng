@@ -93,6 +93,7 @@ if(!empty($file_fid)) {
 <script src="/sites/all/themes/aesbs337/js/slider-options.js"></script>
 <script src="/sites/all/themes/aesbs337/js/carousel-options.js"></script>
 <script src="/sites/all/themes/aeseng/js/home-carousel-hider.js"></script>
+<script src="/sites/all/themes/aeseng/js/shadow-drop-mobile.js"></script>
 
 <div class="container-fluid bannercontainer">
 	<div class="row bannerimage">
