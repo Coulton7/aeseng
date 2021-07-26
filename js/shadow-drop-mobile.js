@@ -12,7 +12,7 @@ if ($(window).width() > 992) {
      'transform': 'translate( 25%,' + (lScroll) + '%)'
    });
    $('.mobile-carousel-caption').css({
-     'transform': 'translate( 25%,' + (tScroll) + '%)'
+     'transform': 'translate( 0%,' + (tScroll) + '%)'
    });
  });
 } else {
