@@ -8,7 +8,7 @@
    var wScroll = ($(this).scrollTop() / $(window).height()) + 50;
    $('.net-zero-container').css({
      'transform': 'translate( 25%, -' + (wScroll) + '%)'
-   })
+   });
  });
 
 })(jQuery);
