@@ -4056,7 +4056,7 @@ h2.carousel-text{
   }
 
   .media-carousel-block .nav li a{
-    color:#000000;
+    color:#ffffff;
   }
 
   .media-carousel-block{
@@ -4306,6 +4306,10 @@ h2.carousel-text{
   .carousel-fill{
     padding-top: 8em;
     padding-bottom: 0;
+  }
+
+  .media-carousel-block .nav li a{
+    color: #000000;
   }
 
   .media-carousel-block{
