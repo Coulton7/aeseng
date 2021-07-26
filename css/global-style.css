@@ -4060,7 +4060,7 @@ h2.carousel-text{
   }
 
   .net-zero-container{
-    .bottom: 4em;
+    bottom: 4em;
     z-index: 10;
   }
 
