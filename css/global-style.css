@@ -2799,11 +2799,11 @@ h2.carousel-text{
   width: 100%;
 }
 
-.shadow-drop-menu>li>a{
+.dropdown-menu.shadow-drop>li>a{
   color: #ffffff;
 }
 
-.shadow-drop-menu>.active>a, .shadow-drop-menu>.active>a:hover, .shadow-drop-menu>.active>a:focus{
+.dropdown-menu.shadow-drop>.active>a, .dropdown-menu.shadow-drop>.active>a:hover, .dropdown-menu.shadow-drop>.active>a:focus{
   background-color: #002a5b;
   background-image: none;
 }
