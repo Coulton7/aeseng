@@ -6,13 +6,20 @@
 
 if ($(window).width() > 992) {
   $(window).on("scroll", function() {
-   var wScroll = ($(this).scrollTop() / $(window).height())*175 - 100;
+   var lScroll = ($(this).scrollTop() / $(window).height())*175 - 100;
+   var tScroll = ($(this.scrollTop() / $(window.height()*175 - 50)))
    $('.net-zero-container').css({
-     'transform': 'translate( 25%,' + (wScroll) + '%)'
+     'transform': 'translate( 25%,' + (lScroll) + '%)'
+   });
+   $('.mobile-carousel-caption').css({
+     'transform': 'translate( 25%,' + (tScroll) + '%)'
    });
  });
-} else{
+} else {
   $('.net-zero-container').css({
+    'transform': 'translate( 0% 0%)'
+  });
+  $('.mobile-carousel-caption').css({
     'transform': 'translate( 0% 0%)'
   });
 }
