@@ -4,11 +4,17 @@
     $(".shadow-drop:first-child").val($(this).text());
  });
 
- $(window).on("scroll", function() {
+if ($(window).width() > 992) {
+  $(window).on("scroll", function() {
    var wScroll = ($(this).scrollTop() / $(window).height()) - 100;
    $('.net-zero-container').css({
      'transform': 'translate( 25%,' + (wScroll) + '%)'
    });
  });
+} else{
+  $('.net-zero-container').css({
+    'transform': 'translate( 0% 0%)'
+  });
+}
 
 })(jQuery);
