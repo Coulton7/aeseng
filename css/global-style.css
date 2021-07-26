@@ -2803,6 +2803,11 @@ h2.carousel-text{
   color: #ffffff;
 }
 
+.shadow-drop-btn:hover{
+  background-color: #000000;
+  color: #e5e5e7;
+}
+
 .dropdown-menu.shadow-drop-menu>.active>a, .dropdown-menu.shadow-drop>.active>a:hover, .dropdown-menu.shadow-drop>.active>a:focus{
   background-color: #002a5b;
   background-image: none;
