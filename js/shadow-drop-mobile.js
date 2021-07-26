@@ -1,7 +1,7 @@
 (function($) {
-  $(".dropdown-menu.shadow-drop li a").click(function(){
-    $(".dropdown-menu.shadow-drop:first-child").text($(this).text());
-    $(".dropdown-menu.shadow-drop:first-child").val($(this).text());
+  $(".dropdown-menu.shadow-drop-menu li a").click(function(){
+    $(".dropdown-menu.shadow-drop-menu:first-child").text($(this).text());
+    $(".dropdown-menu.shadow-drop-menu:first-child").val($(this).text());
  });
 
 if ($(window).width() > 992) {
