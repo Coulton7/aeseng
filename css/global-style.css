@@ -2968,7 +2968,7 @@ h2.carousel-text{
 }
 
 .social-box.red-background:hover{
-  background-color: b0181d
+  background-color: #b0181d;
 }
 
 @media all and (transform-3d), (-webkit-transform-3d) {
