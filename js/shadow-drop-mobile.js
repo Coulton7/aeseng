@@ -9,7 +9,7 @@ if ($(window).width() > 992) {
    var lScroll = ($(this).scrollTop() / $(window).height())*175 - 100;
    var tScroll = ($(this).scrollTop() / $(window).height())*155 - 75;
    $('.net-zero-container').css({
-     'transform': 'translate( 50%,' + (lScroll) + '%)'
+     'transform': 'translate( 30%,' + (lScroll) + '%)'
    });
    $('.mobile-carousel-caption').css({
      'transform': 'translate( 0%,' + (tScroll) + '%)'
