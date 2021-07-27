@@ -2895,6 +2895,11 @@ h2.carousel-text{
   display: flex;
 }
 
+.auto-margin-vertical{
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
 @keyframes fadeLogo {
   0% {
     display: block;
