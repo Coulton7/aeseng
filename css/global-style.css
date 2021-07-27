@@ -2891,7 +2891,7 @@ h2.carousel-text{
   font-size: 2.5em;
 }
 
-.media-carousel .carousel-inner .item.active, .media-carousel .carousel-inner .item.active.left, .media-carousel .carousel-inner .item.active.right, .media-carousel .carousel-inner>.item.next.left .media-carousel .carousel-inner>.item.prev.right{
+.media-carousel .carousel-inner .item.active, .media-carousel .carousel-inner .item.active.left, .media-carousel .carousel-inner .item.active.right, .media-carousel .carousel-inner>.item.next.left, .media-carousel .carousel-inner>.item.prev.right{
   display: flex;
 }
 
