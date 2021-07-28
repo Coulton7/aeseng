@@ -4110,6 +4110,12 @@ h2.carousel-text{
   .shadow-container{
     border-radius: 20px;
   }
+
+  .net-zero-container{
+    height: 100%;
+    position: relative;
+    bottom: 4em;
+  }
 }
 
 @media screen and (min-width: 992px) {
@@ -4341,6 +4347,13 @@ h2.carousel-text{
     position: sticky;
     bottom: 0;
   }
+
+  .net-zero-container{
+    height: 100%;
+    position: relative;
+    bottom: 6em;
+    z-index: 1032;
+  }
 }
 
 @media screen and (min-width: 1200px) {
@@ -4461,6 +4474,13 @@ h2.carousel-text{
     padding-bottom: 0;
     padding-left: 0;
     padding-right: 0;
+  }
+
+  .net-zero-container{
+    height: 100%;
+    position: relative;
+    bottom: 4em;
+    z-index: 1032;
   }
 }
 
