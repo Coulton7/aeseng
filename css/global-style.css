@@ -4087,9 +4087,10 @@ h2.carousel-text{
   }
 
   .net-zero-container{
-    transform: translate(25%, -100%);
+    transform: translate(20%, -100%);
+    position: relative;
     bottom: 4em;
-    z-index: 10;
+    z-index: 1032;
   }
 
   .carousel-control{
@@ -4113,12 +4114,6 @@ h2.carousel-text{
 
   .shadow-container{
     border-radius: 20px;
-  }
-
-  .net-zero-container{
-    height: 100%;
-    position: relative;
-    bottom: 4em;
   }
 
   .social-media{
