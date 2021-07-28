@@ -4215,10 +4215,16 @@ h2.carousel-text{
     content: url(/sites/aesseal.com/files/sidebar/360-panel-desktop-over.png);
   }
 
-  .net-zero:hover {
-    width: 70%;
-    content: url(/sites/all/themes/aesbs337/images/logos/Net-Zero-Logo.svg);
-  }
+  .net-zero-container:hover {
+    background-image: url(/sites/all/themes/aesbs337/images/logos/Net-Zero-Logo.svg);
+    background-repeat: no-repeat;
+    background-position: 24% 100%;
+    background-size: 64%;
+}
+
+.net-zero-container:hover img{
+    opacity:0;
+}
 
   .training-quotes {
     margin-left: -37%;
