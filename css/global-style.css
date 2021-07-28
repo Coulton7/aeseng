@@ -2968,6 +2968,10 @@ h2.carousel-text{
   padding-right: 0;
 }
 
+.social-box.red-background{
+  transition: .5s ease-in
+}
+
 .social-box.red-background:hover{
   background-color: #b0181d;
 }
