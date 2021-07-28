@@ -6,8 +6,8 @@
 
 if ($(window).width() > 992) {
   $(window).on("scroll", function() {
-   var lScroll = ($(this).scrollTop() / $(window).height())*175 - 100;
-   var tScroll = ($(this).scrollTop() / $(window).height())*155 - 75;
+   var lScroll = ($(this).scrollTop() / $(window).height())*90 - 100;
+   var tScroll = ($(this).scrollTop() / $(window).height())*80 - 75;
    $('.net-zero-container').css({
      'transform': 'translate( 30%,' + (lScroll) + '%)'
    });
