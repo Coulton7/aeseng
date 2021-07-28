@@ -4354,7 +4354,7 @@ h2.carousel-text{
   .net-zero-container{
     height: 100%;
     position: relative;
-    bottom: 6em;
+    bottom: 4em;
     z-index: 1032;
   }
 
@@ -4486,7 +4486,7 @@ h2.carousel-text{
   .net-zero-container{
     height: 100%;
     position: relative;
-    bottom: 4em;
+    bottom: 6.75em;
     z-index: 1032;
   }
 }
@@ -4565,6 +4565,13 @@ h2.carousel-text{
     padding-bottom: 0;
     padding-left: 0;
     padding-right: 0;
+  }
+
+  .net-zero-container{
+    height: 100%;
+    position: relative;
+    bottom: 4em;
+    z-index: 1032;
   }
 }
 
