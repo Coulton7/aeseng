@@ -3133,6 +3133,10 @@ h2.carousel-text{
     margin-left: -0.9em!important;
   }
 
+  .home-slider-height{
+    min-height: 30em;
+  }
+
   .front__flex-margin {
     -ms-transform: none;
     -webkit-transform: none;
