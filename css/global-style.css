@@ -3313,6 +3313,26 @@ h2.carousel-text{
     transform: translate(25%);
   }
 
+  .social-media ul li:nth-child(1) a {
+    color: #1da1f2;
+  }
+
+  .social-media ul li:nth-child(2) a {
+    color: #0077b5;
+  }
+
+  .social-media ul li:nth-child(3) a {
+    color: #d34836;
+  }
+
+  .social-media ul li:nth-child(4) a {
+    color: #d34836;
+  }
+
+  .social-media ul li:nth-child(5) a {
+    color: #002a5b;;
+  }
+
   .socialmedia ul li:nth-child(1) a {
     font-size: 3em;
   }
