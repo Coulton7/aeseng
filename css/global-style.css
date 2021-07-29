@@ -3307,6 +3307,12 @@ h2.carousel-text{
     width: 55%;
   }
 
+  .social-media ul li {
+    width: 18%;
+    text-align: center;
+    transform: translate(25%);
+  }
+
   .socialmedia ul li:nth-child(1) a {
     font-size: 3em;
   }
