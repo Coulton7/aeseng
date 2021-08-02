@@ -2941,6 +2941,7 @@ h2.carousel-text{
   border-radius: 0;
   border-bottom: none;
   border: 1px solid transparent;
+  margin-bottom: 5px;
 }
 
 .shadow-box-tabs .nav-tabs li a:hover{
