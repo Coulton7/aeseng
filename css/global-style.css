@@ -2809,6 +2809,12 @@ h2.carousel-text{
   color: #e5e5e7;
 }
 
+.dropdown-menu.shadow-drop-menu>li>a:focus, .dropdown-menu>.shadow-drop-menuli>a:hover{
+  background-image: none;
+  background-color: #004a8c;
+  color: #e5e5e7;
+}
+
 .dropdown-menu.shadow-drop-menu>.active>a, .dropdown-menu.shadow-drop>.active>a:hover, .dropdown-menu.shadow-drop>.active>a:focus, .shadow-box-tabs .nav-tabs li.dropdown li.active a{
   background-color: #002a5b;
   background-image: none;
