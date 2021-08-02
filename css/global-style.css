@@ -4264,11 +4264,11 @@ h2.carousel-text{
     background-repeat: no-repeat;
     background-position: 24% 100%;
     background-size: 64%;
-}
+  }
 
 .net-zero-container:hover img{
     opacity:0;
-}
+  }
 
   .training-quotes {
     margin-left: -37%;
