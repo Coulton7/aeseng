@@ -2976,6 +2976,14 @@ h2.carousel-text{
   background-color: #b0181d;
 }
 
+.horizontal .active > div {
+  display: none;
+}
+
+.horizontal .active div:first-child {
+  display: block;
+}
+
 @media all and (transform-3d), (-webkit-transform-3d) {
 
   .carousel-fade .carousel-inner>.item.next,
@@ -4059,6 +4067,14 @@ h2.carousel-text{
     left: 0;
   }
 
+  .active > div:first-child + div {
+      display: block;
+  }
+
+  .active > div:first-child + div + div {
+  display: block;
+  }
+
   .shadow-box{
     right: 17%;
     width: 113%;
@@ -4341,6 +4357,18 @@ h2.carousel-text{
     -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
     left: 0;
+  }
+
+  .active > div:first-child + div{
+    display: block;
+  }
+
+  .active > div:first-child + div + div{
+    display: block;
+  }
+
+  .active > div:first-child + div + div + div{
+    display: block;
   }
 
   .shadow-box{
