@@ -3712,6 +3712,10 @@ h2.carousel-text{
   .social-media{
     top: 6em;
   }
+
+  .mob-carousel .item{
+  width: 100%;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -4172,6 +4176,10 @@ h2.carousel-text{
   .social-media{
     top: 5em;
   }
+
+  .mob-carousel .item{
+  width: 33.33%;
+  }
 }
 
 @media screen and (min-width: 992px) {
@@ -4426,6 +4434,10 @@ h2.carousel-text{
 
   .social-media{
     top: 4em;
+  }
+
+  .mob-carousel .item{
+    width: 25%;
   }
 }
 
