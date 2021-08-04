@@ -2907,14 +2907,6 @@ h2.carousel-text{
   flex-wrap: wrap;
 }
 
-.media-carousel .carousel-inner .item.prev.right>div:last-child{
-    display: none;
-}
-
-.media-carousel .carousel-inner .item.next.left>div:last-child{
-    display: none;
-}
-
 .auto-margin-vertical{
   margin-top: auto;
   margin-bottom: auto;
@@ -4193,6 +4185,14 @@ h2.carousel-text{
   .mob-carousel .item{
   width: 33.33%;
   }
+
+  .media-carousel .carousel-inner .item.prev.right>div:last-child{
+      display: none;
+  }
+
+  .media-carousel .carousel-inner .item.next.left>div:last-child{
+      display: none;
+  }
 }
 
 @media screen and (min-width: 992px) {
@@ -4451,6 +4451,14 @@ h2.carousel-text{
 
   .mob-carousel .item{
     width: 25%;
+  }
+
+  .media-carousel .carousel-inner .item.prev.right>div:last-child{
+      display: block;
+  }
+
+  .media-carousel .carousel-inner .item.next.left>div:last-child{
+      display: block;
   }
 }
 
