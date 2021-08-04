@@ -3721,6 +3721,21 @@ h2.carousel-text{
   .mob-carousel .item{
   width: 100%;
   }
+
+  .media-carousel .carousel-inner .item.prev.right>div{
+      display: none;
+  }
+
+  .media-carousel .carousel-inner .item.next.left>div{
+      display: none;
+  }
+  .media-carousel .carousel-inner .item.prev.right>div:first-child{
+      display: block;
+  }
+
+  .media-carousel .carousel-inner .item.next.left>div:first-child{
+      display: block;
+  }
 }
 
 @media screen and (min-width: 768px) {
