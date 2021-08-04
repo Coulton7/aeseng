@@ -2902,11 +2902,6 @@ h2.carousel-text{
   display: flex;
 }
 
-.carousel-inner.horizontal>.item{
-  align-content: flex-start;
-  flex-wrap: wrap;
-}
-
 .auto-margin-vertical{
   margin-top: auto;
   margin-bottom: auto;
