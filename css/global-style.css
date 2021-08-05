@@ -2898,10 +2898,6 @@ h2.carousel-text{
   font-size: 2.5em;
 }
 
-.media-carousel .carousel-inner .item.active, .media-carousel .carousel-inner .item.active.left, .media-carousel .carousel-inner .item.active.right, .media-carousel .carousel-inner>.item.next.left, .media-carousel .carousel-inner>.item.prev.right{
-  display: flex;
-}
-
 .auto-margin-vertical{
   margin-top: auto;
   margin-bottom: auto;
@@ -3731,6 +3727,10 @@ h2.carousel-text{
   .media-carousel .carousel-inner .item.next.left>div:first-child{
       display: block;
   }
+
+  .media-carousel .carousel-inner .item.active, .media-carousel .carousel-inner .item.active.left, .media-carousel .carousel-inner .item.active.right, .media-carousel .carousel-inner>.item.next.left, .media-carousel .carousel-inner>.item.prev.right{
+    display: block;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -4202,6 +4202,10 @@ h2.carousel-text{
 
   .media-carousel .carousel-inner .item.next.left>div:last-child{
       display: none;
+  }
+
+  .media-carousel .carousel-inner .item.active, .media-carousel .carousel-inner .item.active.left, .media-carousel .carousel-inner .item.active.right, .media-carousel .carousel-inner>.item.next.left, .media-carousel .carousel-inner>.item.prev.right{
+    display: flex;
   }
 }
 
