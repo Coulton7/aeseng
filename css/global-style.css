@@ -3178,6 +3178,10 @@ h2.carousel-text{
     font-weight: 700;
     text-shadow: 0 1px 2px rgb(0 0 0 / 60%)
   }
+
+  .media-carousel-block .item div{
+    min-height: 15.25em;
+  }
 }
 
 @media screen and (max-width:500px) and (min-width:371px) {
@@ -3225,6 +3229,10 @@ h2.carousel-text{
     font-weight: 700;
     text-shadow: 0 1px 2px rgb(0 0 0 / 60%)
   }
+  
+  .media-carousel-block .item div{
+    min-height: 19em;
+  }
 }
 
 @media screen and (max-width: 767px) and (min-width: 501px) {
@@ -3266,6 +3274,10 @@ h2.carousel-text{
     line-height: 1em;
     font-weight: 700;
     text-shadow: 0 1px 2px rgb(0 0 0 / 60%)
+  }
+
+  .media-carousel-block .item div{
+    min-height: 22em;
   }
 }
 
@@ -4206,6 +4218,9 @@ h2.carousel-text{
 
   .media-carousel .carousel-inner .item.active, .media-carousel .carousel-inner .item.active.left, .media-carousel .carousel-inner .item.active.right, .media-carousel .carousel-inner>.item.next.left, .media-carousel .carousel-inner>.item.prev.right{
     display: flex;
+  }
+  .media-carousel-block .item div{
+    min-height: auto;
   }
 }
 
