@@ -3731,6 +3731,10 @@ h2.carousel-text{
   .media-carousel .carousel-inner .item.active, .media-carousel .carousel-inner .item.active.left, .media-carousel .carousel-inner .item.active.right, .media-carousel .carousel-inner>.item.next.left, .media-carousel .carousel-inner>.item.prev.right{
     display: block;
   }
+
+  .active > div:first-child + div{
+    display: block;
+  }
 }
 
 @media screen and (min-width: 768px) {
