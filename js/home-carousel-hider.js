@@ -13,6 +13,10 @@
             $('.sus-media-carousel').find('.media-tab.active .mob-slide:first').addClass('item active');
             $('.sus-media-carousel').find('.media-tab.active .mob-slide').addClass('item');
           }
+          if($('.mob-slide').hasClass('item'||'item active')){
+            $(this).removeClass('item');
+            $(this).removeClass('active');
+          }
         }
         if (!$('.tech-media-carousel').hasClass('display-none')) {
           $('.tech-media-carousel').addClass('display-none');
@@ -36,6 +40,10 @@
             $('.tech-media-carousel').find('.inner').addClass('carousel-inner');
             $('.tech-media-carousel').find('.media-tab.active .mob-slide:first').addClass('item active');
             $('.tech-media-carousel').find('.media-tab.active .mob-slide').addClass('item');
+          }
+          if($('.mob-slide').hasClass('item'||'item active')){
+            $(this).removeClass('item');
+            $(this).removeClass('active');
           }
         }
         if (!$('.sus-media-carousel').hasClass('display-none')) {
@@ -61,6 +69,10 @@
             $('.cust-media-carousel').find('.media-tab.active .mob-slide:first').addClass('item active');
             $('.cust-media-carousel').find('.media-tab.active .mob-slide').addClass('item');
           }
+          if($('.mob-slide').hasClass('item'||'item active')){
+            $(this).removeClass('item');
+            $(this).removeClass('active');
+          }
         }
         if (!$('.sus-media-carousel').hasClass('display-none')) {
           $('.sus-media-carousel').addClass('display-none');
@@ -84,6 +96,10 @@
             $('.why-media-carousel').find('.inner').addClass('carousel-inner');
             $('.why-media-carousel').find('.media-tab.active .mob-slide:first').addClass('item active');
             $('.why-media-carousel').find('.media-tab.active .mob-slide').addClass('item');
+          }
+          if($('.mob-slide').hasClass('item'||'item active')){
+            $(this).removeClass('item');
+            $(this).removeClass('active');
           }
         }
         if (!$('.sus-media-carousel').hasClass('display-none')) {
