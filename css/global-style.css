@@ -3140,6 +3140,10 @@ h2.carousel-text{
     padding-right: 0.1em;
   }
 
+  .front .search-block{
+    top: 0;
+  }
+
   .lang-switch{
     margin-left: -0.9em!important;
   }
@@ -3229,7 +3233,7 @@ h2.carousel-text{
     font-weight: 700;
     text-shadow: 0 1px 2px rgb(0 0 0 / 60%)
   }
-  
+
   .media-carousel-block .item div{
     min-height: 19em;
   }
