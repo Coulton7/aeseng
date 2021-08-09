@@ -4243,11 +4243,21 @@ h2.carousel-text{
   .media-carousel .carousel-inner .item.active, .media-carousel .carousel-inner .item.active.left, .media-carousel .carousel-inner .item.active.right, .media-carousel .carousel-inner>.item.next.left, .media-carousel .carousel-inner>.item.prev.right{
     display: flex;
   }
+
   .media-carousel-block .item div{
     min-height: auto;
   }
+
   .media-carousel .carousel-inner .item {
     min-height:auto
+  }
+
+  .media-carousel .left, .media-carousel .right{
+    width: auto;
+    background-color: transparent;
+    border-radius: 0;
+    top: auto;
+    bottom: auto;  
   }
 }
 
