@@ -3614,6 +3614,7 @@ h2.carousel-text{
 .media-carousel-block .carousel-indicators li, .media-carousel-block .carousel-indicators li:hover, .media-carousel-block .carousel-indicators li.active{
     width: 49%;
     margin-right: 0;
+    padding: 1em;
   }
 
   .carousel-indicators li:nth-child(1), .carousel-indicators li:nth-child(2){
@@ -4257,7 +4258,7 @@ h2.carousel-text{
     background-color: transparent;
     border-radius: 0;
     top: auto;
-    bottom: auto;  
+    bottom: auto;
   }
 }
 
