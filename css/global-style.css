@@ -3186,6 +3186,14 @@ h2.carousel-text{
   .media-carousel-block .item div{
     min-height: 15.25em;
   }
+
+  .mobile-carousel-caption{
+    bottom: 6em;
+  }
+
+  .net-zero-container{
+    bottom: 9em;
+  }
 }
 
 @media screen and (max-width:500px) and (min-width:371px) {
