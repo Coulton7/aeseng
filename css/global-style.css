@@ -3190,6 +3190,10 @@ h2.carousel-text{
   .media-carousel-block .item div{
     min-height: 15.25em;
   }
+
+  .media-carousel .carousel-inner .item {
+    min-height:21em;
+  }
 }
 
 @media screen and (max-width:500px) and (min-width:371px) {
@@ -3286,6 +3290,10 @@ h2.carousel-text{
 
   .media-carousel-block .item div{
     min-height: 22em;
+  }
+
+  .media-carousel .carousel-inner .item {
+    min-height:27em;
   }
 }
 
@@ -3750,6 +3758,14 @@ h2.carousel-text{
 
   .media-carousel .carousel-inner .item.active, .media-carousel .carousel-inner .item.active.left, .media-carousel .carousel-inner .item.active.right, .media-carousel .carousel-inner>.item.next.left, .media-carousel .carousel-inner>.item.prev.right{
     display: block;
+  }
+
+  .media-carousel .left, .media-carousel .right{
+    bottom: 0;
+    width: 3em;
+    background-color: #dd1e25;
+    top: auto;
+    border-radius: 50%;
   }
 }
 
@@ -4229,6 +4245,9 @@ h2.carousel-text{
   }
   .media-carousel-block .item div{
     min-height: auto;
+  }
+  .media-carousel .carousel-inner .item {
+    min-height:auto
   }
 }
 
