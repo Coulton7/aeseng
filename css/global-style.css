@@ -3245,7 +3245,7 @@ h2.carousel-text{
   .media-carousel-block .item div{
     min-height: 19em;
   }
-  
+
   .media-carousel .carousel-inner .item {
     min-height:27em;
   }
@@ -3767,10 +3767,7 @@ h2.carousel-text{
 
   .media-carousel-block .carousel-controls .carousel-control.right, .media-carousel-block .carousel-controls .carousel-control.left{
     bottom: 0;
-    width: 3em;
-    background-color: #dd1e25;
     top: auto;
-    border-radius: 50%;
   }
 }
 
