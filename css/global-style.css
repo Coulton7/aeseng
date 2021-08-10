@@ -3761,7 +3761,7 @@ h2.carousel-text{
     display: block;
   }
 
-  .media-carousel .left, .media-carousel .right{
+  .media-carousel-block .carousel-controls .carousel-control.right, .media-carousel-block .carousel-controls .carousel-control.left{
     bottom: 0;
     width: 3em;
     background-color: #dd1e25;
