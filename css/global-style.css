@@ -2986,10 +2986,6 @@ h2.carousel-text{
   display: block;
 }
 
-.media-carousel .carousel-inner .item{
-  transition: all 0.6s ease-in!important;
-}
-
 @media all and (transform-3d), (-webkit-transform-3d) {
 
   .carousel-fade .carousel-inner>.item.next,
