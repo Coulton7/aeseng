@@ -3360,23 +3360,23 @@ h2.carousel-text{
   }
 
   .social-media ul li:nth-child(1) a {
-    color: #000000;
+    color: #1da1f2;
   }
 
   .social-media ul li:nth-child(2) a {
-    color: #000000;
+    color: #0077b5;
   }
 
   .social-media ul li:nth-child(3) a {
-    color: #000000;
+    color: #d34836;
   }
 
   .social-media ul li:nth-child(4) a {
-    color: #000000;
+    color: #d34836;
   }
 
   .social-media ul li:nth-child(5) a {
-    color: #000000;;
+    color: #002A5B;
   }
 
   .socialmedia ul li:nth-child(1) a {
@@ -3739,6 +3739,7 @@ h2.carousel-text{
 
   .social-media{
     top: 6em;
+    opacity: 0.5;
   }
 
   .mob-carousel .item{
@@ -3768,6 +3769,10 @@ h2.carousel-text{
     bottom: 0;
     top: auto;
     margin: 0 0.65em
+  }
+
+  .social-media{
+    opacity: 0.5em;
   }
 }
 
