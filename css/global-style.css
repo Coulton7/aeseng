@@ -2051,22 +2051,6 @@ filter: invert(1%) sepia(78%) saturate(3008%) hue-rotate(205deg) brightness(83%)
   border: none;
 }
 
-.brochure-slider-padding{
-  padding: 10% 5%!important;
-}
-
-.training-slider-padding{
-  padding: 41% 5%!important;
-}
-
-.product-slider-padding{
-  padding: 21% 5%!important;
-}
-
-.news-video-slider-padding{
-  padding: 42% 5%!important;
-}
-
 .carousel-sidebar{
   width: 100%;
   align-self: flex-end;
@@ -3569,22 +3553,6 @@ h2.carousel-text{
     font-size: 0.75em;
   }
 
-  .brochure-slider-padding{
-    padding: 10% 5%!important;
-  }
-
-  .training-slider-padding{
-    padding: 41% 5%!important;
-  }
-
-  .product-slider-padding{
-    padding: 21% 5%!important;
-  }
-
-  .news-video-slider-padding{
-    padding: 42% 5%!important;
-  }
-
   .banner-title{
     top: 0;
   }
@@ -4042,22 +4010,6 @@ h2.carousel-text{
     font-size: 1em;
   }
 
-  .brochure-slider-padding{
-    padding: 10% 5%!important;
-  }
-
-  .training-slider-padding{
-    padding: 41% 5%!important;
-  }
-
-  .product-slider-padding{
-    padding: 21% 5%!important;
-  }
-
-  .news-video-slider-padding{
-    padding: 42% 5%!important;
-  }
-
   .banner-title{
     top: 0;
   }
@@ -4401,22 +4353,6 @@ h2.carousel-text{
     left: -2.9em;
   }
 
-  .brochure-slider-padding{
-    padding: 10% 5%!important;
-  }
-
-  .training-slider-padding{
-    padding: 48% 5%!important;
-  }
-
-  .product-slider-padding{
-    padding: 21% 5%!important;
-  }
-
-  .news-video-slider-padding{
-    padding: 49% 5%!important;
-  }
-
   .home-carousel{
     margin-bottom: 1em;
     margin-right: 0.5em;
@@ -4603,22 +4539,6 @@ h2.carousel-text{
     left: -2.9em;
   }
 
-  .brochure-slider-padding{
-    padding: 10% 5%!important;
-  }
-
-  .training-slider-padding{
-    padding: 41% 5%!important;
-  }
-
-  .product-slider-padding{
-    padding: 21% 5%!important;
-  }
-
-  .news-video-slider-padding{
-    padding: 42% 5%!important;
-  }
-
   .shadow-box{
     right: 12%;
     width: 110%;
@@ -4691,22 +4611,6 @@ h2.carousel-text{
   }
   blockquote::before{
     left: -2.8em;
-  }
-
-  .brochure-slider-padding{
-    padding: 10% 5%!important;
-  }
-
-  .training-slider-padding{
-    padding: 41% 5%!important;
-  }
-
-  .product-slider-padding{
-    padding: 21% 5%!important;
-  }
-
-  .news-video-slider-padding{
-    padding: 42% 5%!important;
   }
 
   .shadow-box{
