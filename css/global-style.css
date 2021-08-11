@@ -2994,6 +2994,24 @@ a.btn-transparent-green-border:hover {
   .media-carousel .carousel-inner .item {
     min-height: 21em;
   }
+
+  .sustainability-advert-home {
+    position: absolute;
+    z-index: 10;
+    right: -50%;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  .sustainability-advert {
+    position: absolute;
+    top: 1.5em;
+    right: -23.25%;
+  }
+
+  .sustainability-advert img, .sustainability-advert-home img {
+    max-width: 75%;
+  }
 }
 
 @media screen and (max-width:500px) and (min-width:371px) {
