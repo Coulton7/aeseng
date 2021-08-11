@@ -2300,11 +2300,6 @@ filter: invert(1%) sepia(78%) saturate(3008%) hue-rotate(205deg) brightness(83%)
   top: 12.5%;
 }
 
-.pause-controls{
-  position: relative;
-  bottom: 6.5em;
-}
-
 .advance-training-banner{
   background-image: url(https://static.aesseal.com/banner/training/ezgifmaker.gif);
   background-size: 100%;
@@ -2330,10 +2325,6 @@ filter: invert(1%) sepia(78%) saturate(3008%) hue-rotate(205deg) brightness(83%)
   padding: 1em 0.5em 1em 0.5em;
   border-bottom-left-radius: 4%;
   color: #ffffff;
-}
-
-#playButton, #pauseButton{
-  cursor: pointer;
 }
 
 a.useful-links-text{
