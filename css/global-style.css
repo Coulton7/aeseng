@@ -2161,7 +2161,6 @@ filter: invert(1%) sepia(78%) saturate(3008%) hue-rotate(205deg) brightness(83%)
   text-align: left;
   text-shadow: none;
   display: inline-block;
-
 }
 
 .carousel-control.right,.carousel-control.left{
@@ -2239,7 +2238,6 @@ filter: invert(1%) sepia(78%) saturate(3008%) hue-rotate(205deg) brightness(83%)
 }
 
 #carousel-fade .carousel-inner .item:nth-child(1){
-  background-color: #002A5B;
   background-image: url(https://static.aesseal.com/photo/sustainability/Wetlands-April09_5053-crop.jpg);
   background-size: cover;
   background-repeat: no-repeat;
