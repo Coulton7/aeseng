@@ -2517,12 +2517,6 @@ a.btn-transparent-green-border:hover{
   position: relative;
 }
 
-#myCarousel li{
-  margin-right: 0;
-  padding-left: 0.5em;
-  padding-right: 0.5em;
-}
-
 .front .preface .region-preface-side{
   height: 100%;
   display: flex;
@@ -2530,23 +2524,6 @@ a.btn-transparent-green-border:hover{
 
 .front .preface .region-preface{
   height: 100%;
-}
-
-#myCarousel .thumbnails{
-  margin: 0;
-}
-
-h2.carousel-text{
-  font-weight: 700;
-  color: #002a5b;
-}
-
-.caousel-caption-left{
-  text-align: right;
-}
-
-.carousel-caption-right{
-  text-align: left;
 }
 
 .fa-onehalf{
@@ -2565,138 +2542,14 @@ h2.carousel-text{
   transform: scale(1.1);
 }
 
-.animate__delay-6s{
-  animation-delay: 6s;
-  -webkit-animation-delay: 6s;
-}
-
-.animate__delay-7s{
-  animation-delay: 7s;
-  -webkit-animation-delay: 7s;
-}
-
-.animate__delay-8s{
-  animation-delay: 8s;
-  -webkit-animation-delay: 8s;
-}
-
-.animate__delay-9s{
-  animation-delay: 9s;
-  -webkit-animation-delay: 9s;
-}
-
-.animate__delay-10s{
-  animation-delay: 10s;
-  -webkit-animation-delay: 10s;
-}
-
-.animate__delay-20s{
-  animation-delay: 20s;
-  -webkit-animation-delay: 20s;
-}
-
-.marquee {
-  white-space: nowrap;
-  overflow: hidden;
-  position: relative;
-  left: 0;
-  width: 70%;
-}
-
-.marquee--inner {
-  display: block;
-  width: 200%;
-  position: absolute;
-  animation: marquee 30s linear infinite;
-}
-
-.marquee-static-text{
-  width: 35%;
-}
-
-@keyframes marquee {
-  0% {
-    left: 100%;
-   }
-  100% {
-    left: -275%;
-   }
-}
-
-.caption-one{
-  animation: fadeText 3s infinite;
-}
-
-.caption-two{
-  animation: fadeText 3s infinite;
-  animation-delay: 4s;
-}
-
-.caption-three{
-  animation: fadeText 3s infinite;
-  animation-delay: 7s;
-}
-
-.caption-four{
-  animation: fadeText 3s infinite;
-  animation-delay: 10s;
-}
-
-.green-logo{
-  z-index: 1033;
-  width: 11.7em;
-  margin: 0 auto;
-  right: 0.1em;
-}
-
-.front .carousel .vertical .btn-block+.btn-block{
-  margin-top: 0.5em;
-}
-
-.brochure-carousel{
-  margin-left: 0.5em;
-  margin-right: 0.5em;
-  margin-bottom: -0.5em;
-  background-color: #e5e5e7;
-  position: relative;
-}
-
-.brochure-carousel .align-self{
-  align-self: flex-end
-}
-
 .button-slider .carousel-inner .item.active {
     margin-bottom: 1em;
-}
-
-.slide-curve-down{
-  width: 100%;
-  height: 102%;
-  right: 71%;
-  position: absolute;
-  z-index: 10;
-  filter: invert(9%) sepia(4%) saturate(64%) hue-rotate(202deg) brightness(97%) contrast(99%);
 }
 
 .net-zero-container{
   height: 100%;
   position: relative;
   bottom: 4em;
-}
-
-.icon-container{
-  height: 100%;
-  position: relative;
-}
-
-.shadow-box{
-  width: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
-  border-radius: 0 40px 10px 0;
-  transform: skewX(-30deg);
-  right: 12%;
-  position: relative;
-  bottom: 1em
 }
 
 .shadow-container{
@@ -2708,28 +2561,6 @@ h2.carousel-text{
 
 .flex-text-overflow-container{
   min-width: 0;
-}
-
-.shadow-box-content{
-  transform: skewX(30deg);
-}
-
-.text-slider .slides li p{
-  position: absolute;
-  transform: translateY(25%);
-}
-
-.flex-col{
-  display: flex;
-  flex-flow: column;
-}
-
-.flex-grow-1{
-  flex: 1 0 auto;
-}
-
-.carousel-vertical{
-  height: 100%;
 }
 
 .carousel-inner.flex .item.active{
@@ -2872,35 +2703,6 @@ h2.carousel-text{
 .auto-margin-vertical{
   margin-top: auto;
   margin-bottom: auto;
-}
-
-@keyframes fadeLogo {
-  0% {
-    display: block;
-    opacity: 1
-  }
-
-  100% {
-    display: none;
-    opacity: 0
-  }
-}
-
-@keyframes fadeText{
-  0%{
-    opacity: 0;
-  }
-  50%{
-    opacity: 1;
-  }
-  100%{
-    opacity: 0;
-  }
-}
-
-.icon-right{
-  position: absolute;
-  right: 2%;
 }
 
 .shadow-box-tabs .nav-tabs li a{
