@@ -3027,7 +3027,7 @@ a.btn-transparent-green-border:hover {
     transform: translateY(-50%);
   }
 
-  .sustainability-advert img, .sustainability-advert-home img{
+  .sustainability-advert img, .sustainability-advert-home img {
     max-width: 75%;
   }
 }
@@ -3079,6 +3079,12 @@ a.btn-transparent-green-border:hover {
   .media-carousel .carousel-inner .item {
     min-height: 27em;
   }
+
+  .sustainability-advert {
+    position: absolute;
+    top: -1em;
+    right: -5em%;
+  }
 }
 
 @media screen and (max-width: 767px) and (min-width: 501px) {
@@ -3128,6 +3134,24 @@ a.btn-transparent-green-border:hover {
 
   .media-carousel .carousel-inner .item {
     min-height: 27em;
+  }
+
+  .sustainability-advert-home {
+    position: absolute;
+    z-index: 10;
+    right: -30%;
+    top: 60%;
+    transform: translateY(-50%);
+  }
+
+  .sustainability-advert img {
+    max-width: 75%;
+  }
+
+  .sustainability-advert {
+    position: absolute;
+    top: -14.75em;
+    right: 0;
   }
 }
 
@@ -3957,6 +3981,25 @@ a.btn-transparent-green-border:hover {
     top: auto;
     bottom: auto;
   }
+
+  .sustainability-advert-home {
+    position: absolute;
+    z-index: 10;
+    right: -10%;
+    top: 28%;
+    transform: translateY(-50%);
+  }
+
+  .sustainability-advert {
+    position: absolute;
+    top: -13.5em;
+    right: 0;
+  }
+
+  .logged-in .sustainability-advert {
+    top: -14.5em;
+    right: 0;
+  }
 }
 
 @media screen and (min-width: 992px) {
@@ -4184,6 +4227,32 @@ a.btn-transparent-green-border:hover {
     position: relative;
     top: 0;
   }
+
+  .sustainability-advert-home {
+    position: absolute;
+    z-index: 10;
+    right: 0;
+    top: 44%;
+    transform: translateY(-60%);
+  }
+
+  .sustainability-advert-img-home {
+    max-width: 75%;
+    right: 0;
+    margin-right: ;
+    margin-left: auto;
+  }
+
+  .sustainability-advert {
+    position: absolute;
+    top: -13.5em;
+    right: 0;
+  }
+
+  .logged-in .sustainability-advert {
+    top: -14.5em;
+    right: 0;
+  }
 }
 
 @media screen and (min-width: 1200px) {
@@ -4278,6 +4347,30 @@ a.btn-transparent-green-border:hover {
     position: relative;
     top: 10%;
   }
+
+  .sustainability-advert-home {
+    position: absolute;
+    z-index: 10;
+    right: 0;
+    top: 51%;
+    transform: translateY(-60%);
+  }
+
+  .sustainability-advert-img-home {
+    max-width: 100%;
+  }
+
+  .sustainability-advert {
+    position: absolute;
+    top: -14em;
+    right: 0;
+  }
+
+  .logged-in .sustainability-advert {
+    position: absolute;
+    top: -15em;
+    right: 0;
+  }
 }
 
 @media screen and (min-width: 1500px) {
@@ -4326,6 +4419,26 @@ a.btn-transparent-green-border:hover {
     position: relative;
     top: 28%;
   }
+
+  .sustainability-advert-home {
+    position: absolute;
+    z-index: 10;
+    right: 0;
+    top: 57%;
+    transform: translateY(-60%);
+  }
+
+  .sustainability-advert {
+    position: absolute;
+    top: -14em;
+    right: 0;
+  }
+
+  .logged-in .sustainability-advert {
+    position: absolute;
+    top: -15em;
+    right: 0;
+  }
 }
 
 @media screen and (min-width: 2000px) {
@@ -4344,6 +4457,24 @@ a.btn-transparent-green-border:hover {
   .red-tile-text {
     position: relative;
     top: 33%;
+  }
+
+  .sustainability-advert {
+    position: absolute;
+    top: -13.5em;
+    right: 0;
+  }
+
+  .logged-in .sustainability-advert {
+    position: absolute;
+    top: -17.5em;
+    right: 0;
+  }
+}
+
+@media (hover: none) {
+  .sustainability-advert-img:hover {
+    content: auto;
   }
 }
 
