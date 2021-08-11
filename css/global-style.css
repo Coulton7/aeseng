@@ -3018,6 +3018,18 @@ a.btn-transparent-green-border:hover {
   .search-block {
     margin: 0 0 0 -1.9em
   }
+
+  .sustainability-advert-home {
+    position: absolute;
+    z-index: 10;
+    right: -40%;
+    top: 60%;
+    transform: translateY(-50%);
+  }
+
+  .sustainability-advert img, .sustainability-advert-home img{
+    max-width: 75%;
+  }
 }
 
 @media screen and (max-width: 501px) and (min-width:371px) {
