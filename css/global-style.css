@@ -3990,13 +3990,13 @@ a.btn-transparent-green-border:hover {
     transform: translateY(-50%);
   }
 
-  .sustainability-advert {
+  .sustainability-advert, .rel-logos-wave{
     position: absolute;
     top: -13.5em;
     right: 0;
   }
 
-  .logged-in .sustainability-advert {
+  .logged-in .sustainability-advert, .logged-in .rel-logos-wave{
     top: -14.5em;
     right: 0;
   }
@@ -4243,13 +4243,13 @@ a.btn-transparent-green-border:hover {
     margin-left: auto;
   }
 
-  .sustainability-advert {
+  .sustainability-advert, .rel-logos-wave{
     position: absolute;
     top: -13.5em;
     right: 0;
   }
 
-  .logged-in .sustainability-advert {
+  .logged-in .sustainability-advert, .logged-in .rel-logos-wave{
     top: -14.5em;
     right: 0;
   }
@@ -4360,13 +4360,13 @@ a.btn-transparent-green-border:hover {
     max-width: 100%;
   }
 
-  .sustainability-advert {
+  .sustainability-advert, .rel-logos-wave{
     position: absolute;
     top: -14em;
     right: 0;
   }
 
-  .logged-in .sustainability-advert {
+  .logged-in .sustainability-advert, .logged-in .rel-logos-wave{
     position: absolute;
     top: -15em;
     right: 0;
@@ -4428,13 +4428,17 @@ a.btn-transparent-green-border:hover {
     transform: translateY(-60%);
   }
 
-  .sustainability-advert {
+  .sustainability-advert, .rel-logos-wave{
     position: absolute;
     top: -14em;
     right: 0;
   }
 
-  .logged-in .sustainability-advert {
+  .rel-logos-wave{
+    top: -14.5em;
+  }
+
+  .logged-in .sustainability-advert, .logged-in .rel-logos-wave{
     position: absolute;
     top: -15em;
     right: 0;
@@ -4459,16 +4463,28 @@ a.btn-transparent-green-border:hover {
     top: 33%;
   }
 
-  .sustainability-advert {
+  .sustainability-advert, .rel-logos-wave{
     position: absolute;
     top: -13.5em;
     right: 0;
   }
 
-  .logged-in .sustainability-advert {
+  .logged-in .sustainability-advert, .logged-in .rel-logos-wave{
     position: absolute;
-    top: -17.5em;
+    top: -17.2em;
     right: 0;
+  }
+
+  .rel-logos-wave{
+    top: -15em;
+    max-width: 90%;
+  }
+}
+
+@media screen and (min-width: 2500px) {
+  .rel-logos-wave{
+    top: -15.6em;
+    max-width: 90%;
   }
 }
 
