@@ -194,8 +194,6 @@ if(!empty($file_fid)) {
     </div>
   </section>
 
-
-
   <?php if ($page['wavelower']): ?>
 	<div class="row wavelower row-eq-height">
 		<div class="col-md-9 col-sm-8 col-xs-0 fullscreen">
