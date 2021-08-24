@@ -3561,6 +3561,10 @@ a.btn-transparent-green-border:hover {
     opacity: 0.5;
   }
 
+  .media-carousel .item img{
+    margin: 0 auto;
+  }
+
   .mob-carousel .item {
     width: 100%;
   }
