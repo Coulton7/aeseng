@@ -2725,6 +2725,18 @@ a.btn-transparent-green-border:hover {
   opacity: 1;
 }
 
+.carousel-btn-right{
+  position: relative;
+  top: -0.1em;
+  left: 0.1em;
+}
+
+.carousel-btn-left{
+  position: relative;
+  top: -0.1em;
+  right: 0.1em;
+}
+
 .carousel-text {
   color: #535354;
 }
