@@ -2730,13 +2730,13 @@ a.btn-transparent-green-border:hover {
 
 .carousel-btn-right{
   position: relative;
-  top: -0.1em;
+  top: 0em;
   left: 0.1em;
 }
 
 .carousel-btn-left{
   position: relative;
-  top: -0.1em;
+  top: 0em;
   right: 0.1em;
 }
 
