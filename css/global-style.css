@@ -2560,7 +2560,7 @@ a.btn-transparent-green-border:hover {
 
 .shadow-container {
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(255, 255, 255, 1);
   border-radius: 20px;
   position: relative;
 }
