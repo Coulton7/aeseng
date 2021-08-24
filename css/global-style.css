@@ -2712,11 +2712,11 @@ a.btn-transparent-green-border:hover {
   margin-bottom: auto;
 }
 
-.media-carousel-block .carousel-controls .carousel-control{
+.media-carousel-block .carousel-controls .carousel-control {
   color: rgba(0, 0, 0, 0.3);
 }
 
-.media-carousel-block .carousel-controls .carousel-control:hover{
+.media-carousel-block .carousel-controls .carousel-control:hover {
   color: rgba(0, 0, 0, 0.5);
 }
 
@@ -2949,25 +2949,13 @@ a.btn-transparent-green-border:hover {
 
 @media screen and (max-width:370px) {
   .search-block {
-    margin: 0 0 0 0;
+    margin: 0 0 0 -3.9em;
     position: relative;
-    top: auto;
-    left: 0;
-    width: 62% !important;
-    padding-left: 0.1em;
-    padding-right: 0.1em;
+    top: 26.2em;
   }
 
   .front .search-block {
-    top: 0;
-  }
-
-  .lang-switch {
-    margin-left: -0.9em !important;
-  }
-
-  .home-slider-height {
-    min-height: 30em;
+    top: 20.2em;
   }
 
   .front__flex-margin {
@@ -4004,13 +3992,13 @@ a.btn-transparent-green-border:hover {
     transform: translateY(-50%);
   }
 
-  .sustainability-advert, .rel-logos-wave{
+  .sustainability-advert, .rel-logos-wave {
     position: absolute;
     top: -13.5em;
     right: 0;
   }
 
-  .logged-in .sustainability-advert, .logged-in .rel-logos-wave{
+  .logged-in .sustainability-advert, .logged-in .rel-logos-wave {
     top: -14.5em;
     right: 0;
   }
@@ -4125,9 +4113,9 @@ a.btn-transparent-green-border:hover {
     opacity: 1;
   }
 
-  .virtual-tour:hover img{
-  opacity: 0;
-}
+  .virtual-tour:hover img {
+    opacity: 0;
+  }
 
   .net-zero-container:hover {
     background-image: url(/sites/all/themes/aesbs337/images/logos/Net-Zero-Logo.svg);
@@ -4261,13 +4249,13 @@ a.btn-transparent-green-border:hover {
     margin-left: auto;
   }
 
-  .sustainability-advert, .rel-logos-wave{
+  .sustainability-advert, .rel-logos-wave {
     position: absolute;
     top: -13.5em;
     right: 0;
   }
 
-  .logged-in .sustainability-advert, .logged-in .rel-logos-wave{
+  .logged-in .sustainability-advert, .logged-in .rel-logos-wave {
     top: -14.5em;
     right: 0;
   }
@@ -4378,13 +4366,13 @@ a.btn-transparent-green-border:hover {
     max-width: 100%;
   }
 
-  .sustainability-advert, .rel-logos-wave{
+  .sustainability-advert, .rel-logos-wave {
     position: absolute;
     top: -14em;
     right: 0;
   }
 
-  .logged-in .sustainability-advert, .logged-in .rel-logos-wave{
+  .logged-in .sustainability-advert, .logged-in .rel-logos-wave {
     position: absolute;
     top: -15em;
     right: 0;
@@ -4446,17 +4434,17 @@ a.btn-transparent-green-border:hover {
     transform: translateY(-60%);
   }
 
-  .sustainability-advert, .rel-logos-wave{
+  .sustainability-advert, .rel-logos-wave {
     position: absolute;
     top: -14em;
     right: 0;
   }
 
-  .rel-logos-wave{
+  .rel-logos-wave {
     top: -14.5em;
   }
 
-  .logged-in .sustainability-advert, .logged-in .rel-logos-wave{
+  .logged-in .sustainability-advert, .logged-in .rel-logos-wave {
     position: absolute;
     top: -15em;
     right: 0;
@@ -4481,26 +4469,26 @@ a.btn-transparent-green-border:hover {
     top: 33%;
   }
 
-  .sustainability-advert, .rel-logos-wave{
+  .sustainability-advert, .rel-logos-wave {
     position: absolute;
     top: -13.5em;
     right: 0;
   }
 
-  .logged-in .sustainability-advert, .logged-in .rel-logos-wave{
+  .logged-in .sustainability-advert, .logged-in .rel-logos-wave {
     position: absolute;
     top: -17.2em;
     right: 0;
   }
 
-  .rel-logos-wave{
+  .rel-logos-wave {
     top: -15em;
     max-width: 90%;
   }
 }
 
 @media screen and (min-width: 2500px) {
-  .rel-logos-wave{
+  .rel-logos-wave {
     top: -15.6em;
     max-width: 90%;
   }
