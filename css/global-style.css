@@ -4125,6 +4125,10 @@ a.btn-transparent-green-border:hover {
     opacity: 1;
   }
 
+  .virtual-tour:hover img{
+  opacity: 0;
+}
+
   .net-zero-container:hover {
     background-image: url(/sites/all/themes/aesbs337/images/logos/Net-Zero-Logo.svg);
     background-repeat: no-repeat;
