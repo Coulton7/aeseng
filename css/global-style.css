@@ -2712,6 +2712,14 @@ a.btn-transparent-green-border:hover {
   margin-bottom: auto;
 }
 
+.media-carousel-block .carousel-controls .carousel-control{
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.media-carousel-block .carousel-controls .carousel-control:hover{
+  color: rgba(0, 0, 0, 0.5);
+}
+
 .shadow-box-tabs .nav-tabs li a {
   padding: 0.2em;
   border-radius: 0;
