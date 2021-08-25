@@ -160,9 +160,9 @@ if(!empty($file_fid)) {
 	<?php if ($page['navigation_col']): ?>
 		<div class="navigation_col">
 			<div class="action-menu text-center">
-				<div class="col-sm-2 col-xs-0 fullscreen">
+				<div class="col-md-2 col-sm-0 col-xs-0 fullscreen">
 				</div>
-				<div class="col-sm-10 col-sm-offset-2 col-xs-12 no-padding">
+				<div class="col-md-10 col-md-offset-2 col-sm-12 col-xs-12 no-padding">
 				<?php print render($page['navigation_col']);?>
 			</div>
 			</div>
