@@ -2760,7 +2760,7 @@ a.btn-transparent-green-border:hover {
   color: #535354;
   background-color: transparent;
   margin-bottom: 5px;
-  border-bottom-color: #ddd;
+  border-bottom: 1px solid #ddd;
 }
 
 .nav-tabs.nav-justified>li.dropdown {
