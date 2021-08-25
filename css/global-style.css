@@ -3434,7 +3434,11 @@ a.btn-transparent-green-border:hover {
   }
 
   .footer-social-icons a i {
-    font-size: 0.75em;
+    font-size: 1.75em;
+  }
+
+  .footer-social-icons a i:first-child{
+    padding-left: 0.5em
   }
 
   .banner-title {
