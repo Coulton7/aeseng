@@ -3580,7 +3580,7 @@ a.btn-transparent-green-border:hover {
   .media-carousel-block .carousel-controls .carousel-control.right, .media-carousel-block .carousel-controls .carousel-control.left {
     bottom: 0;
     top: auto;
-    margin: 0 0.65em;
+    margin: 0 1.65em;
     height: auto;
     width: auto;
     border: none;
