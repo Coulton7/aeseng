@@ -3587,8 +3587,15 @@ a.btn-transparent-green-border:hover {
     box-shadow: none;
   }
 
-  blockquote.customer-focus-quote:before {
-  top: 13em;
+  blockquote.customer-focus-quote:before{
+    top: 6.5em;
+    left: -2.5em;
+  }
+
+  .customer-focus-quote {
+    font-size: 19px;
+    line-height:30px;
+    background-position: 85% 50%;
   }
 }
 
@@ -4039,8 +4046,15 @@ a.btn-transparent-green-border:hover {
     right: 0;
   }
 
-  blockquote.customer-focus-quote:before {
-  top: 13em;
+  blockquote.customer-focus-quote:before{
+    top: 7em;
+    left: -1.9em
+  }
+
+  .customer-focus-quote {
+    font-size: 26px;
+    line-height: 28px;
+    background-position: right top;
   }
 }
 
@@ -4311,6 +4325,11 @@ a.btn-transparent-green-border:hover {
     top: -14.5em;
     right: 0;
   }
+
+  .customer-focus-quote {
+    font-size: 27px;
+    line-height:29px;
+  }
 }
 
 @media screen and (min-width: 1200px) {
@@ -4438,6 +4457,11 @@ a.btn-transparent-green-border:hover {
     position: absolute;
     top: -15em;
     right: 0;
+  }
+
+  .customer-focus-quote {
+    font-size: 28px;
+    line-height:30px;
   }
 }
 
