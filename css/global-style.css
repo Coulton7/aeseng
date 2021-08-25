@@ -4612,11 +4612,19 @@ a.btn-transparent-green-border:hover {
   .aspect-ratio-padding {
     padding-bottom: 62.5%;
   }
+  .aspect-ratio-padding-even{
+    padding-top: 31.25%;
+    padding-bottom: 31.25%;
+  }
 }
 
 @media (max-aspect-ratio: 3/2) {
   .aspect-ratio-padding {
     padding-bottom: 66.66%;
+  }
+  .aspect-ratio-padding-even{
+    padding-top: 33.33%;
+    padding-bottom: 33.33%;
   }
 }
 
@@ -4624,11 +4632,19 @@ a.btn-transparent-green-border:hover {
   .aspect-ratio-padding {
     padding-bottom: 75%;
   }
+  .aspect-ratio-padding-even{
+    padding-top: 32.5%;
+    padding-bottom: 32.5%;
+  }
 }
 
 @media (min-aspect-ratio: 16/9) {
   .aspect-ratio-padding {
     padding-bottom: 56.25%;
+  }
+  .aspect-ratio-padding-even{
+    padding-top: 28.13%;
+    padding-bottom: 28.12%;
   }
 }
 
