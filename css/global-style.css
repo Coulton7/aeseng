@@ -2475,39 +2475,6 @@ a.btn-transparent {
   color: #03943e;
 }
 
-.home-brochure-flex {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-}
-
-.home-brochure-flex .view-header {
-  flex: 1 0 auto;
-}
-
-.home-brochure-flex .view-header .view-content {
-  display: flex;
-  height: 100%;
-}
-
-.home-brochure-flex .view-content {
-  width: 100%;
-}
-
-.greenbar:before {
-  content: " ";
-  padding: 25%;
-  display: block;
-}
-
-.greenbar {
-  width: 20%;
-  height: 88%;
-  background-color: #03943e;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 a.btn-transparent-green-border {
   background: #e5e5e7;
   border: 2px solid #03943e;
@@ -2800,7 +2767,7 @@ a.btn-transparent-green-border:hover {
   display: block;
 }
 
-.sustainability-advert {
+.sustainability-advert, .rel-logos-wave {
   position: absolute;
   z-index: 10;
   right: 5%;
@@ -3025,13 +2992,13 @@ a.btn-transparent-green-border:hover {
     transform: translateY(-50%);
   }
 
-  .sustainability-advert {
+  .sustainability-advert, .rel-logos-wave {
     position: absolute;
     top: 1.5em;
     right: -23.25%;
   }
 
-  .sustainability-advert img, .sustainability-advert-home img {
+  .sustainability-advert img, .sustainability-advert-home img, , .rel-logos-wave img {
     max-width: 75%;
   }
 }
@@ -3049,7 +3016,7 @@ a.btn-transparent-green-border:hover {
     transform: translateY(-50%);
   }
 
-  .sustainability-advert img, .sustainability-advert-home img {
+  .sustainability-advert img, .sustainability-advert-home img, .rel-logos-wave img {
     max-width: 75%;
   }
 }
@@ -3102,10 +3069,10 @@ a.btn-transparent-green-border:hover {
     min-height: 27em;
   }
 
-  .sustainability-advert {
+  .sustainability-advert, .rel-logos-wave {
     position: absolute;
     top: -1em;
-    right: -5em%;
+    right: -5em;
   }
 }
 
@@ -3166,11 +3133,11 @@ a.btn-transparent-green-border:hover {
     transform: translateY(-50%);
   }
 
-  .sustainability-advert img {
+  .sustainability-advert img, .rel-logos-wave img {
     max-width: 75%;
   }
 
-  .sustainability-advert {
+  .sustainability-advert, .rel-logos-wave {
     position: absolute;
     top: -14.75em;
     right: 0;
@@ -3387,6 +3354,10 @@ a.btn-transparent-green-border:hover {
   .prod-slide-padding {
     padding-top: 0 !important;
     padding-bottom: 0 !important;
+  }
+
+  .mobile-hori-prod-slide-padding {
+    padding: 0 15% !important;
   }
 
   .training-quotes {
@@ -3797,6 +3768,10 @@ a.btn-transparent-green-border:hover {
     display: initial;
   }
 
+  #arrowNav {
+    display: none;
+  }
+
   .prod-slider-row>[class*='col-'] {
     padding: 0.5em 0 0 0.5em;
   }
@@ -3822,6 +3797,11 @@ a.btn-transparent-green-border:hover {
   .footer-testimonials {
     position: relative;
     transform: translate(25%, 5%);
+  }
+
+  .footer-swirl {
+    top: 18%;
+    right: 20%;
   }
 
   .footer-slider {
@@ -3947,7 +3927,7 @@ a.btn-transparent-green-border:hover {
   }
 
   .net-zero-container {
-    transform: translate(20%, -100%);
+    transform: translate(25%, -120%);
     position: relative;
     bottom: 4em;
     z-index: 1032;
@@ -4012,7 +3992,7 @@ a.btn-transparent-green-border:hover {
     bottom: auto;
   }
 
-  .media-carousel-block .carousel-controls .carousel-control{
+  .media-carousel-block .carousel-controls .carousel-control {
     width: 3em;
     height: 3em;
     box-shadow: 0 0 0 1px rgb(0 0 0 / 4%), 0 4px 8px 0 rgb(0 0 0 / 30%);
@@ -4146,6 +4126,8 @@ a.btn-transparent-green-border:hover {
     background-image: url(/sites/aesseal.com/files/sidebar/360-panel-desktop-over.png);
     background-size: 100%;
     opacity: 1;
+    background-repeat: no-repeat;
+    background-position: 100% 24%;
   }
 
   .virtual-tour:hover img {
@@ -4170,6 +4152,11 @@ a.btn-transparent-green-border:hover {
   .footer-testimonials {
     position: relative;
     transform: translate(25%, 5%);
+  }
+
+  .footer-swirl {
+    top: 18%;
+    right: 20%;
   }
 
   .contact-text {
@@ -4244,7 +4231,7 @@ a.btn-transparent-green-border:hover {
   .net-zero-container {
     height: 100%;
     position: relative;
-    bottom: 4em;
+    bottom: 6.75em;
     z-index: 1032;
   }
 
@@ -4264,7 +4251,7 @@ a.btn-transparent-green-border:hover {
     display: block;
   }
 
-  .media-carousel-block .carousel-controls .carousel-control{
+  .media-carousel-block .carousel-controls .carousel-control {
     width: 3em;
     height: 3em;
   }
@@ -4340,7 +4327,7 @@ a.btn-transparent-green-border:hover {
   }
 
   .prod-slider-row>[class*='col-'] {
-    padding: 0.5em 0 0 0.5em
+    padding: 0.5em 0 0 0.5em;
   }
 
   .col-lg-x8 {
@@ -4366,6 +4353,11 @@ a.btn-transparent-green-border:hover {
     left: 19%;
   }
 
+  .footer-swirl {
+    top: 18%;
+    right: 20%;
+  }
+
   blockquote::before {
     left: -2.9em;
   }
@@ -4389,7 +4381,7 @@ a.btn-transparent-green-border:hover {
     z-index: 1032;
   }
 
-  .media-carousel-block .carousel-controls .carousel-control{
+  .media-carousel-block .carousel-controls .carousel-control {
     width: 3em;
     height: 3em;
   }
@@ -4430,6 +4422,11 @@ a.btn-transparent-green-border:hover {
     transform: translate(25%, 25%);
   }
 
+  .footer-swirl {
+    top: 18%;
+    right: 20%;
+  }
+
   .contact-text {
     width: 56%;
     top: 37%;
@@ -4462,11 +4459,11 @@ a.btn-transparent-green-border:hover {
   .net-zero-container {
     height: 100%;
     position: relative;
-    bottom: 4em;
+    bottom: 6em;
     z-index: 1032;
   }
 
-  .media-carousel-block .carousel-controls .carousel-control{
+  .media-carousel-block .carousel-controls .carousel-control {
     width: 3em;
     height: 3em;
   }
@@ -4514,14 +4511,21 @@ a.btn-transparent-green-border:hover {
     padding-bottom: 24em;
   }
 
+  .media-carousel-block .carousel-controls .carousel-control {
+    width: 3em;
+    height: 3em;
+  }
+
+  .net-zero-container {
+    height: 100%;
+    position: relative;
+    bottom: 4em;
+    z-index: 1032;
+  }
+
   .red-tile-text {
     position: relative;
     top: 33%;
-  }
-
-  .media-carousel-block .carousel-controls .carousel-control{
-    width: 3em;
-    height: 3em;
   }
 
   .sustainability-advert, .rel-logos-wave {
