@@ -2564,6 +2564,12 @@ a.btn-transparent-green-border:hover {
   color: #dd1e25;
 }
 
+.mob-carousel .inner{
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
 .shadow-drop {
   width: 100%;
   background-color: rgba(255, 255, 255, 1);
