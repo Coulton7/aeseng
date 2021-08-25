@@ -2800,6 +2800,12 @@ a.btn-transparent-green-border:hover {
   opacity: 0;
 }
 
+.customer-focus-quote{
+  padding-top: 15em;
+  padding-bottom: 13em;
+  color: #ffffff;
+}
+
 @media all and (transform-3d), (-webkit-transform-3d) {
 
   .carousel-fade .carousel-inner>.item.next,
