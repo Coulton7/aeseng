@@ -2807,6 +2807,18 @@ a.btn-transparent-green-border:hover {
   z-index: 1;
 }
 
+.carousel-controls a {
+  transition: all ease-in-out 0.3s;
+}
+
+.media-carousel:hover + .carousel-controls .left {
+  left: 0.5em;
+}
+
+.media-carousel:hover + .carousel-controls .right {
+  right: 0.5em!important;
+}
+
 @media all and (transform-3d), (-webkit-transform-3d) {
 
   .carousel-fade .carousel-inner>.item.next,
